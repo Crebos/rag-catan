@@ -18,3 +18,32 @@ Result #1 (Distance: 0.9765)
 you cannot build a city directly. you can onlycontent : to make the sequence easier to learn for beginners. (...)
 
 Interpretation: Hier hat er den string "you cannot build a city directly. you can only" als Heading interpretiert und leider genau im richtigen Satz abgeschnitten. Alles danach ist gibberish. Aber dass er anhand von diesem kleinen Text aus dem index diesen snippet extrahieren konnte, zeigt dass der rest relativ solide läuft.
+
+## Fokuswechsel
+
+Damit ich nicht zu viel Zeit verschwende um das PDF auszulesen, werde ich vorerst die Applikation lauffähig machen. Gemäss Auftragsdokument ist die Qualität des Models nicht die höchste Priorität, sondern der Prozess um ein RAG zu erstellen. Ein nächster Schritt wäre hier, das Chunking zu verbessern, da ich aktuell per Wordcount chunke, und danach nochmals nach tokencount. Könnte man vereinheitlichen.
+
+Um das auslesen aus dem PDF später zu verbessern, kann ich mir vorstellen ein LLM zu verwenden (welches aber etwas schwierig ist, da die Dokumente nicht gerade klein sind) oder ausschau nach einer dynamischeren Library zu halten, welche mehr Optionen für das Auslesen der PDFs gibt.
+
+## Chunking
+
+Mit mehr Fokus auf das Chunking, habe ich festgestellt, dass das maximal limit für das ausgewählte Modell bei 256 immernoch relativ gross ist. Die Aussagen und informationen in den Dokumenten sind sehr kompakt, was eher für kleinere Chunking grössen spricht. Daher probiere ich schrittweise die Grösse etwas zu reduzieren. Dabei vergleiche ich die Chunks und lese quer, unwiefern unrelevante Informationen im selben Chunk gelandet sind. Auch teste ich manuell einzeln was der FAISS Index mir für meine Query geben würde.
+
+Hierbei habe ich gemerkt, dass meine TestQueries noch optimiert werden könnte, da ich aktuell nur eine verwende und diese eher schwierig ist. Ich werde hier total 6 Queries zusammenstellen, dabei jeweils 2 aus je 3 Dokumenten. Diese nutze ich dann um manuell zu prüfen, ob die Antworten in die richtige Richtung gehen.
+
+Diese verwendete ich bis anhin:
+query = "I have all the necessary resources and it is my turn. Where can I place a city? Anywhere connected to a road, right?"
+
+Neu verwende ich folgende Fragen:
+query = "How do you acquire resources during the game?" # Answer in catan_base_3to4p.pdf at page 11 (you gotta dice the numbers where your settlements are)
+query = "How do you get the Longest Road special card and what happens if another player builds a longer road?" # Answer in catan_base_3to4p.pdf at page 5 (5 continoous reoad segments (and longest))
+query = "What do you need to play a Seafarers 5-6 Player scenario?" # Answer in catan_seafarers_5to6p.pdf at page 2 (you need Catan & Catan 5&6p, and seafarers game)
+query = "How should you assemble the game board for a Seafarers scenario?" # Answer in catan_seafarers_5to6p.pdf at page 2 (Assemble frame as in the photo and place tiles ..)
+query = "What happens when the barbarian ship reaches Catan?" # Answer in catan_barbarians_3to4p.pdf at page 7 (must compare knight strength to barbarians strength)
+query = "How are knights used in the game, and what actions can they perform?" # Answer in catan_barbarians_3to4p.pdf at page 6 (msut be activated by paying 1 grain, then he can used)
+
+Auch mit chunk size 128 und overlap 24 scheinen mir die Chunks und aussagen noch viel zu durchmischt, mit vielen irrelevanten informationen. Auch die Resultate aus dem Index sind nicht wirklich nutzbar, aber dennoch sind "manchmal" nahe an der tatsächlichen relevanten Stellen.
+
+Mit extremer chunk size 52 und overlap 8 gibts einfach zu wenig Inhalt und verständlichen Kontext. Die Resultate sind nochmals einiges schlechter, wahrscheinlich da der Kontext einfach fehlt, um was es überhaupt geht. Er scheint mehr Wörter zu mappen als inhaltliche Aussagen.
+
+Daher bleibe ich nun mal bei ewtas zwischendurch: chunksize 112 overlap 22
