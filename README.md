@@ -1,23 +1,24 @@
-# RAG for CATAN game rules
+# RAG for Catan game rules
 
 ## Project Description
 
+This project is the final assignment for the AI Applications module at ZHAW School of Management and Law. The goal is to build a Retrieval-Augmented Generation (RAG) system that equips a language model with detailed knowledge of the official Settlers of Catan rules. The core idea is to enhance the model’s ability to answer game-related questions accurately by grounding its responses in the actual rulebook (provided as a PDF).
 
+To achieve this, I'm using the LangChain framework along with FAISS for semantic search over embedded rule chunks. The RAG pipeline connects these pieces to a language model that generates context-aware responses. The end result will be a functional Gradio web app that lets users interact with the model in real time.
 
 ### Name & URL
 
 | Name          | URL |
 |---------------|-----|
-| Huggingface (or streamlit)   | [Huggingface Space](https://huggingface.co/spaces/kuhs/ai-application-oxford-pets) |
-| Embedding Model Page    | [Huggingface Model Page](https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2) |
-| Code          | [GitHub Repository](https://github.com/Jasminh/ai-application-rag) |
+| Huggingface (or streamlit)   | [Huggingface Space]() |
+| Embedding Model Page    | [Huggingface Model Page](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) |
+| Code          | [GitHub Repository](https://github.com/Crebos/rag-catan) |
 
 ## Data Sources
 
 | Data Source | Description |
 |-------------|-------------|
-| [Compendium](https://compendium.ch/) | Swiss Drug Registry  |
-| Other data | We also included data of the NHS |
+| [Catan Website](https://www.catan.com/understand-catan/game-rules/) | Official Settlers of Catan Website with rulebooks  |
 
 ## RAG Improvements
 
@@ -35,21 +36,22 @@ The data was chunked with the following logic to improve the performance of the 
 
 | Type of Chunking  | Configuration |
 |------------|---------------:|
-| RecursiveCharacterTextsplitter      | 1000 characters, 100 overlap         |
-| I also tried this method | x, y           |
-| I also tried this one       | x, y           |
+| RecursiveCharacterTextSplitter      | chunk_size=600, chunk_overlap=100         |
+| Manual splitting by layout and paragraph |            |
 
 ## Choice of LLM
 
 | Name | Link |
 |-------|---------------|
-| 1     | platformhttps://ai.google.dev/gemini-api/docs/models/gemini?hl=de#gemini-2.0-flash-lite     |
+| 1     |     |
 
 (Add rows if you combine multiple models or compared their performance.)
 
 ## Test Method
 
-Detail how you selected or generated the test data and how you evaluated the performance of the model.
+At first tests I simply tested with a simple Query
+query = "I have all the necessary resources and it is my turn. Where can I place a city? Anywhere connected to a road, right?"
+and manually interpreting the output, since the output already should have self explanatory text, which are understandable. 
 
 ## Results
 
@@ -59,3 +61,4 @@ Detail how you selected or generated the test data and how you evaluated the per
 | Generated answer with config xyz  | -      | -         | -      |
 
 ## References
+
