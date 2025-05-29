@@ -56,7 +56,7 @@ Daher bleibe ich nun mal bei ewtas zwischendurch: chunksize 112 overlap 22
 
 Da es sich bei der Arbeit mehr um das Chunking und vectorisieren handeln sollte, habe ich für das Frontend und Deployment eine einfache Lösung gewählt. Als Framework habe ich mich für Gradio entschieden, da dies alles was ich brauche out-of-the-box bereitstellt. Detailliertes Customizing brauche ich nicht. Zusätzlicher Bonus ist, dass LLMs relativ gut darin sind, Gradio Frontend zu generieren, was mir den Prozess einiges erleichtert.
 
-Das Frontend über das Studio laufen zu lassen hat nach 1-2 manuellen fixes direkt funktioniert. Die Resultate sind trotz unschönem Chunking .. dennoch relativ hilfreich bei vielen retrieved chunks. Bei k 1-4 sind die Ergebnisse eher schlecht, da die relevante info nicht dabei ist. Wenn man aber auf k 7-10 hochdrückt, ist die gesuchte information in allen beispielen vorhanden, und das LLM kann eine hilfreiche Antwort daraus generieren.
+Das Frontend über das Studio laufen zu lassen hat nach 1-2 manuellen fixes direkt funktioniert. Die Resultate sind trotz unschönem Chunking .. dennoch relativ hilfreich bei vielen retrieved chunks. Bei k 1-4 sind die Ergebnisse eher schlecht, da die relevante info nicht dabei ist. Wenn man aber auf k 7-10 hochdrückt, ist die gesuchte information in allen beispielen vorhanden, und das LLM kann eine hilfreiche Antwort daraus generieren. Da beim Dokument auslesen die Texte "verschnitten" sind (zwei parallele Paragraphen ausgelesen linie um linie), sind die Sätze verstreut über mehrere Chunks. Ich kann mir vorstellen dass beim inkludieren von vielen Chunks, diese Texte im Prompt wieder zusammenkommen, woraus das LLM dann eine korrekte Antwort generieren kann.
 
 query: Can I move the robber back to the same tile?
 
