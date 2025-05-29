@@ -1,5 +1,12 @@
-# Notebook
+# For Notebook (building the stuff)
 pdfplumber
 langchain
 sentence_transformers
 faiss-cpu
+
+# For Gradio App (showing off the stuff)
+faiss-cpu
+gradio
+sentence-transformers
+python-dotenv
+google-generativeai
