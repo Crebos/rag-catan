@@ -64,7 +64,7 @@ k = 2:
 "Based on the provided text, the rules for moving the robber are not fully explained. The text mentions (...)"
 
 k = 8:
-No, you cannot move the robber back to the same hex it currently occupies. This is explicitly stated in several of the provided text excerpts [6].
+"No, you cannot move the robber back to the same hex it currently occupies. This is explicitly stated in several of the provided text excerpts [6]."
 
 ## Query Rewriting
 

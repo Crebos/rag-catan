@@ -62,6 +62,10 @@ query = "How should you assemble the game board for a Seafarers scenario?" # Ans
 query = "What happens when the barbarian ship reaches Catan?" # Answer in catan_barbarians_3to4p.pdf at page 7 (must compare knight strength to barbarians strength)
 query = "How are knights used in the game, and what actions can they perform?" # Answer in catan_barbarians_3to4p.pdf at page 6 (msut be activated by paying 1 grain, then he can used)
 
+Testing for the Query Rewriting included a new Query with a malformed request.
+
+query = "Can I move the weird guy that lets me steal a card from someone, into a water thingy on the map?"
+
 ## Results
 
 | Model/Method                     | Accuracy | Precision | Recall |
