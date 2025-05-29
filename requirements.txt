@@ -1,3 +1,5 @@
 # Notebook
 pdfplumber
 langchain
+sentence_transformers
+faiss-cpu
