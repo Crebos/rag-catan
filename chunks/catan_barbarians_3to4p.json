@@ -1,0 +1,670 @@
+[
+  {
+    "id": 0,
+    "text": "Klaus Teuber\nVV rr\naarriiaanntt uulleess &&\nCC ss\naammppaaiiggnn CCeennaarriiooss\nDear Players,\nTen years ago, after publishing Catan–Cities & Knights™, I was asked if there would be a third expansion of the\nBase Game. I answered in the negative at that time, because I thought that all wishes to experience more in Catan\nhad been fulfilled. With Catan–Seafarers , the game was extended spatially, and Cities & Knights provided it with\n®\ngreater depth.\nAt the beginning of 2006, we started a survey in the Catan Online World where, among other things, we asked the"
+  },
+  {
+    "id": 1,
+    "text": "citizens of this virtual game world which games they would want the most. “Variants of the base game” appeared at the\nvery top of the wish list.\nThis vote encouraged me to consolidate and further develop ideas for interesting variants and expansions that had\npiled up in my drawer during the past 10 years. And now you’re holding the outcome in your hands!\nA campaign with 5 scenarios opens up entirely new challenges and possibilities to experience the base game in a new\nfashion, and well-established variants offer alternatives to adapt the game to one’s own needs."
+  },
+  {
+    "id": 2,
+    "text": "fashion, and well-established variants offer alternatives to adapt the game to one’s own needs.\nHence, this expansion is all about “variants of the basic bame,” and the complexity of the last two scenarios of the\ncampaign almost comes up to the standard of Cities & Knights.\nIt is impossible to bring an expansion of this scope to a satisfactory conclusion all by oneself. I therefore want to\nsincerely thank all those fellow settlers mentioned under “Rule Testing and Advice” in the Credits section of this booklet\nfor their valuable help.\nI wish you lots of fun with Traders & Barbarians™!"
+  },
+  {
+    "id": 3,
+    "text": "for their valuable help.\nI wish you lots of fun with Traders & Barbarians™!\n— Klaus Teuber, February 2007\nYou can find more information at:\ncatan.com catanstudio.com klausteuber.com\nGame Components Contents\n• 98 game pieces Introduction . . . . . . . . . . . . . . . . . . . .page 2\n– 24 knights (6 of each color) Th•e Variants . . . . . . . . . . . . . . . . . . pages 3-7\n– 12 bridges (3 of each color) • The Friendly Robber . . . . . . . . . . . . . page 3\n– 4 wagons (1 of each color) • Catan Event Cards. . . . . . . . . . . . . . . page 4"
+  },
+  {
+    "id": 4,
+    "text": "– 4 wagons (1 of each color) • Catan Event Cards. . . . . . . . . . . . . . . page 4\n– 36 barbarians (bronze color) • Harbormaster. . . . . . . . . . . . . . . . . page 6\n– 22 camels (brown color) Catan for Two . . . . . . . . . . . . . . . . . page 6\n• 120 cards Th•e Campaign . . . . . . . . . . . . . . . . pages 8-23\n– 1 set of cards for “Catan Event Cards” variant • The Fishermen of Catan* . . . . . . . . . . . page 8\n– 4 cards for “The Fishermen of Catan” scenario • The Rivers of Catan* . . . . . . . . . . . . .page 10"
+  },
+  {
+    "id": 5,
+    "text": "– 1 set of cards for “Barbarian Attack” scenario • The Caravans . . . . . . . . . . . . . . . . .page 12\n– 2 sets of cards for “Traders & Barbarians” scenario • Barbarian Attack . . . . . . . . . . . . . . .page 15\n• 17 terrain tiles, fishing ground tiles, and sea frame pieces Traders & Barbarians . . . . . . . . . . . . .page 19\n• 40 gold coin counters (25 small, 15 large) Credits . . . . . . . . . . . . . . . . . . . . . . page 24\n• 1 special victory point card “Harbormaster,” Card Deck Manifest . . . . . . . . . . . . . . . page 24"
+  },
+  {
+    "id": 6,
+    "text": "• 4 special tiles “Wealthiest Settler (1),” and “Poor Settler (3)”\n*—These 2 scenarios differ significantly from the previously\n• 21 trade tokens (Catan chits)\npublished mini-expansions with the same names. Both\n• 36 commodity tokens\nscenarios have expanded rules; the first has an added lake,\n• 30 fish tokens while the second has more river hexes. Read the rules for each\n• 1 Variants & Scenarios booklet of these scenarios carefully before beginning play.\n22\nbeFoRe youR FiRst Game\nCarefully detach the die-cut cardboard pieces from the"
+  },
+  {
+    "id": 7,
+    "text": "22\nbeFoRe youR FiRst Game\nCarefully detach the die-cut cardboard pieces from the\nframes. On the backs of the larger pieces, you will find the name\nof the corresponding variant or scenario. The color of each\nThe Caravans\nTraders &\nBarbarians\nback serves as an additional distinguishing characteristic—\neach variant/scenario has a unique corresponding color. You\ncan also find those colors on the card backs. •\nVariant “The Friendly Robber” . . . . . . . . Gray • Fishermen of Catan Barbarian Attack\nVariant “Catan Event Cards” . . . . . . . . .Black • The Rivers of Catan"
+  },
+  {
+    "id": 8,
+    "text": "Variant “Catan Event Cards” . . . . . . . . .Black • The Rivers of Catan\nVariant “Harbormaster” . . . . . . . . . . . . .Red •\nVariant “Catan for Two” . . . . . . . . Light Green •\nScenario “The Fishermen of Catan” . . .Sea Blue • note\nScenario “The Rivers of Catan” . . . . . Dark Blue • The variants can be used and combined with each other\nScenario “The Caravans” . . . . . . . . . . . .Tan • as well as with the Traders & Barbarians (T&B) scenarios,\nScenario “Barbarian Attack” . . . . . Dark Green • with Catan–Seafarers, scenarios, and to a certain extent with"
+  },
+  {
+    "id": 9,
+    "text": "Catan–Cities & Knights. (C&K) For some variant/scenario\nScenario “Traders & Barbarians” . . . . . Purple\ncombinations, the rules have to be slightly modified or adapted.\nSuch adaptations of rules are specified in each of the respective\nvariants and scenarios listed in this booklet.\nV\nariants\nTTHHEE FFRRIIEENNDDLLYY RROOBBBBEERR the Rule ChanGe\nWhen a “7” is rolled or a knight card is played, the robber\nWhat’s going on in the forest of Catan? Strange stories are\nmay not be moved to a terrain hex that is adjacent to a\ncoming out of the dark woods of the Black Forest, hinting"
+  },
+  {
+    "id": 10,
+    "text": "coming out of the dark woods of the Black Forest, hinting\nsettlement of a player who only has 2 victory points.\nthat the dreaded robber has disappeared without a trace,\nand that a young lad has taken his place. His name is said to If, because of this rule, the robber has no valid terrain hex to\nbe Rob de Hood, and supposedly he is only taking from rich move to, the robber moves to (or remains on) the desert hex.\ntravelers. Poor devils are allowed to move on… In this case, a resource card may not be taken from any player\nwho only has 2 victory points."
+  },
+  {
+    "id": 11,
+    "text": "who only has 2 victory points.\nDuration of the Game: according to scenario\nWhen using this rule, you still lose half of your resource cards\nAdditional Components: none\nwhen a “7” is rolled and you have more than 7 resource cards.\nWhat it is about\ntips FoR playinG this VaRiant\nWho hasn’t experienced the frustration of having the robber\nThis variant should always be used when playing with family\nmoved next to one of your settlements early in the game? Not\nmembers, particularly when children are participating in\nonly may you lose a resource—the robber blocks crucial\nthe game."
+  },
+  {
+    "id": 12,
+    "text": "only may you lose a resource—the robber blocks crucial\nthe game.\nresource production until a “7” is rolled or a knight card is\nplayed. The “Friendly Robber” variant protects you from the\npossible Combinations\nrobber until you have more than 2 victory points.\nThis variant can be combined with all other T&B variants,\nT&B scenarios, and Seafarers scenarios, without rule changes.\nThe Islands are spring Each life is a short step on an endless\ndgournee toward discoveree and the betterment of the world\n33\nCATAN EVENT CARDS pRepaRation\nSeparate out the “Brief Rules” card and the “New Year” card."
+  },
+  {
+    "id": 13,
+    "text": "33\nCATAN EVENT CARDS pRepaRation\nSeparate out the “Brief Rules” card and the “New Year” card.\n“Every man is the architect of his own fortune.”—This\nproverb is also true in Catan. Pick up the dice and challenge a) Shuffle the remaining 36 cards.\nfortune each time anew! Of course, sometimes one will be b) Place 5 of the shuffled cards face down to start the event\nat odds with the forces controlling fate, when one’s own card deck.\nnumbers won’t come up and fortune only smiles on the c) Place the New Year card face down on top of these\nother players. 5 cards."
+  },
+  {
+    "id": 14,
+    "text": "other players. 5 cards.\nd) Place the remaining shuffled cards face down on top of the\nBut now it seems that so-called “scientists” have\nNew Year card.\nsucceeded in making “fortune” a more calculable affair—by\napplying statistical methods. And it actually seems to work! You have prepared the event card deck and are ready to begin\nAlthough, from what one hears, the use of mathematics also play. Each turn, reveal the top event card, then resolve any event\nhas unpleasant consequences: it is no longer possible to shown first, and finally produce resources using the number on"
+  },
+  {
+    "id": 15,
+    "text": "excuse one’s own defeat by saying that one’s numbers didn’t the circular chit on the card.\ncome up… When the “New Year” is revealed, repeat the preparation\nDuration of the Game: According to scenario process above to create a new event card deck (then reveal the\ntop card, resolve any event, and produce resources using the\nAdditional Components: 1 event deck (as shown here):\nnumber on the new card).\nNote: Each time the deck is prepared, 5 cards are excluded\nfrom play until the next time the deck is prepared. This\ncreates some uncertainty to the final resource rolls as the"
+  },
+  {
+    "id": 16,
+    "text": "creates some uncertainty to the final resource rolls as the\ndeck runs out. If having a perfect dice distribution is more\nimportant to you, feel free to play through all 36 cards\nwithout the New Year card, and simply reshuffle when all\ncards have been used!\nadditional Rules\nRobber Attacks! (Prod. #: “7”)\n1. Each player with more than 7 cards\nmust discard half (rounded down). 2. Move the robber. Draw 1 random\nresource card from any 1 player\nwith a settlement and/or city next to\nthe robber’s new hex.\nEpidemic (Prod. #s: “6” and “8”)\nEach player receives only 1 resource"
+  },
+  {
+    "id": 17,
+    "text": "the robber’s new hex.\nEpidemic (Prod. #s: “6” and “8”)\nEach player receives only 1 resource\nfor each of their cities that produce\nWhat it is about\nthis turn.\nThese cards replace the dice! On your turn, you don’t Cities & Knights: You may not take\nroll the dice; instead, you turn the top of the event card deck a commodity card.\nface up. The number in the upper right corner of the card is\nEarthquake (Prod. #: “6”)\nthe “roll.” It determines which terrain hexes produce resources\nEach player turns 1 (maximum) of\n(if any).\ntheir roads sideways (at a 90° angle)."
+  },
+  {
+    "id": 18,
+    "text": "Each player turns 1 (maximum) of\n(if any).\ntheir roads sideways (at a 90° angle).\nThat face-up card may also trigger a particular event. There\nYou may not build roads until your\nare a total of 11 different events, and almost half of the cards\nturned road is repaired. The repairs\nhave events.\ncost 1 lumber and 1 brick. Roads\nThe statistically correct distribution of the numbers on the turned sideways are still counted\ncards reduces the randomness produced by dice rolls. However, towards the “Longest Road.” You may"
+  },
+  {
+    "id": 19,
+    "text": "cards reduces the randomness produced by dice rolls. However, towards the “Longest Road.” You may\nin exchange, the events inject new elements of chance into the not build a settlement adjacent to a\ngame—thus producing a slightly different ambience. damaged road.\n44\nHbmG nataC 5102\n©\nROBBER ATTACKS! 7\n••••••\n1. Each player with more than 7 cards must discard half of their\ncards (rounded down). 2. Move the robber. Draw 1 random resource or commodity card from\nany 1 player with a settlement and/or city next to the robber’s new hex.\nHbmG\nnataC 5102\n©\nEARTHQUAKE 66\n•••••"
+  },
+  {
+    "id": 20,
+    "text": "HbmG\nnataC 5102\n©\nEARTHQUAKE 66\n•••••\nEach player turns 1 (maximum)\nof their roads sideways.\nYou may not build roads until\nyou pay 1 lumber and 1 brick to\nrepair your turned road. Roads turned sideways still count towards the “Longest Road.”\nHbmG nataC\n5102\n©\nEPIDEMIC 88\n•••••\nEach player receives only\n1 resource for each of their\ncities that produce this turn.\nC&K: You may not take\na commodity card.\nHbmG\nnataC 5102 ©\nROBBER ATTACKS! 7\n••••••\n1. Each player with more than\n7 cards must discard half of their"
+  },
+  {
+    "id": 21,
+    "text": "ROBBER ATTACKS! 7\n••••••\n1. Each player with more than\n7 cards must discard half of their\ncards (rounded down). 2. Move the robber. Draw 1 random resource or commodity card from any 1 player with a settlement and/or city next to the\nrobber’s new hex.\n1 Brief\nRules Card\nHbmG nataC 5102 ©\nProduction\n“Roll”\n36 Event\nCards\nNEW YEAR\n1 New\nYear Card e vent 1 c . a S rd h s u ( ffl e x e c a e l p l t t h th e i s one). 2. Put 5 event cards face down and\nplace this card on top of those 5. 3. Place the remaining 31 event"
+  },
+  {
+    "id": 22,
+    "text": "place this card on top of those 5. 3. Place the remaining 31 event\ncards on top of this card to form a new draw pile. 4. Draw the top card to begin the turn.\nCatan eVent CaRds bRieF Rules This event deck replaces the production die roll! Notreo:ll Ftohre CCeiivtteiineesst &&di eKK.nniigghhttss, you still have to\n1. Remove this card and the New Year card. 2. 5Sh ouff flt hee tmhe f arceem daoinwinng ( 3w6it hevoeunt tl ocoarkdins ga natd t hpeumt ). 3. Place the New Year card on top of these 5 cards. Optthioesnea 5l :c Sahrdusf.fl e the New Year card with"
+  },
+  {
+    "id": 23,
+    "text": "4. oPfl atchee steh e6 rceamrdasin.ing 31 cards face down on top\n– AcSn C ae t u & rc t m yur hd K o i o e. b s n : g ue F ed h b R i r , tt er flo h sps g c il t h e l i r p o , n oo t rr rn ah dw en ei e u d sn n c e oc g a r e d i le v n r v f o i de e o a e f t n . t r h t e v h I h t e p a af ee d c rl u y x uo h i e p o e e v ge p u t s e r u e e s n e t v r rh rh s tn eo o a s r s, rl t w i h ly c fl g m o a a h n i t pw r i ta c m di tc no in c s o t v e h . o y e r t n h n r t g h e e a tte h r h tl . e ee o ,w tc 66• o • a e • pr • r • d . E E f v fe e c n t t s C& R K o e l v l ent"
+  },
+  {
+    "id": 24,
+    "text": "– Rreevpeeaal tt hstee pNse w1- 4Ye eaarc cha tridm.e you\nGood Neighbors (Prod. #: “6”) Conflict (Prod. #: “3”)\nEach player gives the player to their The player with the most face-up\nleft 1 resource of the giver’s choice (if knight cards takes 1 resource card at\nthey have one). random from any one player. If there is\nCities & Knights: Instead of a a tie for most, ignore the effects of\nresource, you may give a commodity. this event.\nYou must give a commodity if that’s all Cities & Knights: The player with\nyou have in your hand. the highest total value of active"
+  },
+  {
+    "id": 25,
+    "text": "you have in your hand. the highest total value of active\nTournament (Prod. #: “5”) knights takes a random resource/\ncommodity card. If tied, ignore the\nThe player(s) with the most knight\neffect. You may not take a\ncards revealed takes 1 resource of their\nprogress card.\nchoice from the bank.\nPlentiful Year (Prod. #: “2”)\nCities & Knights: The player(s) with\nthe most active knight points takes a Each player takes 1 resource of\nresource card. You may not take (1) their choice from the supply.\ncommodity card. Cities & Knights: You may not take\nTrade Advantage (Prod. #: “5”) a commodity card."
+  },
+  {
+    "id": 26,
+    "text": "commodity card. Cities & Knights: You may not take\nTrade Advantage (Prod. #: “5”) a commodity card.\nThe player with the “Longest Road” Cards Without Events (Prod. #s:\ncard (if not claimed, the player with “3,” “4,” 2x “5,” 2x “6,” 4x “8,”\nmore roads than any other player) may 3x “9,” 2x “10,” “11”)\ntake one resource card from any player. The settlers labor. Catan prospers!\nYou may not take a development card.\nNote: No event occurs.\nCities & Knights: You may not take a\nNew Year progress card.\n1. Shuffle all the event cards (except\nCalm Sea (Prod. #s: “9” and “12”)\nthis one)."
+  },
+  {
+    "id": 27,
+    "text": "1. Shuffle all the event cards (except\nCalm Sea (Prod. #s: “9” and “12”)\nthis one).\nThe player(s) with the most harbors\n2. Put 5 event cards face down and\nreceives 1 resource card of their choice\nplace this card on top of those 5.\nfrom the supply.\n3. Place the remaining 31 event cards\nCities & Knights: You may not take a face down on top of this card to commodity card. form a new draw pile. Robber Flees (Prod. #s: 2x “4”)\n4. Draw the top card to begin\nThe robber returns to the desert. Do\nthe turn.\nnot draw a card from any player.\nNeighborly Assistance possible Combinations:"
+  },
+  {
+    "id": 28,
+    "text": "the turn.\nnot draw a card from any player.\nNeighborly Assistance possible Combinations:\n(Prod. #s: “10” and “11”) This variant can be combined with all other T&B variants,\nThe player(s) with the most victory T&B scenarios, and Seafarers scenarios, without rule changes.\npoints give(s) 1 player with fewer For Cities & Knights: Roll the C&K event die every time you\nvictory points 1 resource card of the turn over an event card. If the event die shows a city gate, use\ngiver’s choice. If a giver doesn’t have a the red die value shown in the lower right corner of the event"
+  },
+  {
+    "id": 29,
+    "text": "resource card to give, that giver ignores card for progress cards. Then play proceeds normally.\nthis event card effect.\nCities & Knights: You may give a\ncommodity in place of a resource. You\nmust give a commodity if that’s all you\nhave.\nleave the womb discover and\nbetter our world\n55\nHbmG nataC\n5102\n©\nCALM SEAS 99\n••••\nThe player(s) with the most harbors receive(s) 1 resource card of their choice from the bank. C&K: You may not take a commodity card.\nHbmG\nnataC\n5102 ©\nROBBER FLEES! 44\n•••\nThe robber returns\nto the desert.\nDo not draw a card\nfrom any player.\nHbmG nataC 5102\n©\nTOURNAMENT 55"
+  },
+  {
+    "id": 30,
+    "text": "to the desert.\nDo not draw a card\nfrom any player.\nHbmG nataC 5102\n©\nTOURNAMENT 55\n••••\nThe player(s) with the most knight\ncards revealed takes 1 resource of\ntheir choice from the bank.\nC&K: The player(s) with the most\nactive knight points takes\n1 resource card. You may not take a commodity card.\nHbmG\nnataC 5102\n©\nTRADE ADVANTAGE 55 ••••\nThe player with the “Longest Road” card (if not claimed, the player\nwith more roads than any other\nplayer) may take 1 resource card from any player. You may not take\na development card.\nC&K: You may not take a progress card.\nHbmG\nnataC 5102\n©\n66 •••••"
+  },
+  {
+    "id": 31,
+    "text": "a development card.\nC&K: You may not take a progress card.\nHbmG\nnataC 5102\n©\n66 •••••\nThe settlers labor. Catan prospers!\nHbmG nataC\n5102\n©\nNEW YEAR\n1. Shuffl e all the\nevent cards (except this one).\n2. Put 5 event cards face down and place this card on top of those 5. 3. Place the remaining 31 event cards on top of this card to form a new draw pile. 4. Draw the top card to begin the turn.\nHbmG nataC 5102\n©\nNEIGHBORLY\nASSISTANCE 1100 •••\nThe player(s) with the most VPs\ngive(s) 1 player with fewer VPs\n1 resource card of the giver’s choice.\nIf a giver doesn’t have a resource card"
+  },
+  {
+    "id": 32,
+    "text": "1 resource card of the giver’s choice.\nIf a giver doesn’t have a resource card\nto give, that giver ignores this event.\nC&K: You may give a commodity\nin place of a resource. You must give a commodity if that’s all you have.\nHbmG nataC 5102\n©\nPLENTIFUL YEAR 22•\nEach player takes 1 resource\nof their choice from the bank.\nC&K: You may not take\na commodity card.\nHbmG nataC\n5102\n©\nGOOD NEIGHBORS 66\n•••••\nEach player gives the player to\ntheir left 1 resource of the giver’s choice (if they have one).\nC&K: Instead of a resource, you\nmay give a commodity. You\nmust give a commodity if that’s"
+  },
+  {
+    "id": 33,
+    "text": "C&K: Instead of a resource, you\nmay give a commodity. You\nmust give a commodity if that’s\nall you have in your hand. HbmG nataC\n5102\n©\nCONFLICT 33\n••\nThe player with the “Largest Army”\ncard (if not claimed, each player with the most knight cards) takes 1 resource card at random from\nany one player.\nC&K: Each player with the highest\ntotal value of active knights takes\n1 random resource/commodity card. You may not take\na progress card.\nHHAARRBBOORRMMAASSTTEERR CCAATTAANN FFOORR TTWWOO\nWith its dangers and temptations, the sea has always The Catanians are sociable people. They get together"
+  },
+  {
+    "id": 34,
+    "text": "attracted adventurous people. They congregate in harbors, and have fun—groups of four have the most enjoyable\nwhich is why harbors are home to an exceptional number experiences, although life can still be very exciting for\nof adventurers. Whoever can control those savage hordes of groups of three. More and more frequently, however, groups\nadventurers is undoubtedly destined for greater things— of two can be seen searching for adventure all by themselves.\nmaybe even the title of Harbormaster! Will it be the first step But wait a minute, these people can be helped: now the"
+  },
+  {
+    "id": 35,
+    "text": "towards even higher honors? fun for two plus two has arrived! Two are real, the other two\nDuration of the Game: According to scenario imaginary—give the challenge of “Catan for Two” a try!\nAdditional Components: 1 Harbormaster special VP card Duration of the Game: According to scenario\nAdditional Components: 20 trade tokens\nWhat it is about\nAs trade becomes more and\nmore important on Catan, the\nharbors have an ever-increasing\nrelevance. Settlements and\ncities at harbors provide\nHarbormaster\n“harbor points.” 2 Victory Points!\nThe first player to acquire 3 harbor"
+  },
+  {
+    "id": 36,
+    "text": "Harbormaster\n“harbor points.” 2 Victory Points!\nThe first player to acquire 3 harbor\nThe player with the most points gets this card. Another player 20 Trade Tokens (Catan chits)\nwho acquires more harbor points\nharbor points receives takes this card.\n2 special victory points. pRepaRation\npRepaRation Place the two sets of game pieces not chosen by the players\nbeside the game board. They will serve as game components for\nPlace the “Harbormaster” special card beside the board.\nthe two imaginary neutral players.\nthe Game Also place the trade tokens beside the board. At the beginning"
+  },
+  {
+    "id": 37,
+    "text": "the Game Also place the trade tokens beside the board. At the beginning\nof the game, each player receives 5 trade tokens.\nThe normal rules for Catan apply. If you have 11 or more\nvictory points during your turn, the game ends and you are\nset-up\nthe winner.\nSet up the terrain hexes as usual in the white area shown\nadditional Rules below. For each neutral player, place 1 settlement (without a\nroad) on one of the intersections of the game board marked in\n• A settlement at a harbor gives 1 harbor point.\nthe following illustration.\nA city at a harbor gives 2 harbor points."
+  },
+  {
+    "id": 38,
+    "text": "the following illustration.\nA city at a harbor gives 2 harbor points.\n• The first player to acquire 3 harbor points receives\nthe “Harbormaster” special card, worth 2 victory points.\n• If another player acquires more harbor points, that player\ntakes the Harbormaster card and the 2 victory points.\npossible Combinations\nThis variant can be combined with all other T&B variants,\nT&B scenarios, and Seafarers scenarios, without rule changes.\nFor any scenario, the normal number of victory points required\nfor victory should be increased by one point.\n66"
+  },
+  {
+    "id": 39,
+    "text": "for victory should be increased by one point.\n66\nYou and your opponents then build your two starting Replenishing Trade Tokens\nsettlements with roads, according to the normal set-up rules.\n• Once during your turn, you may discard one of your\nTherefore, after finishing the set-up phase, each player has\nface-up knight cards and take 2 trade tokens in exchange.\n2 settlements and 2 roads on the game board, while each\nIf you hold the Largest Army card and discard a face-up\nneutral player has 1 settlement.\nknight card, you might have to set aside the Largest Army"
+  },
+  {
+    "id": 40,
+    "text": "neutral player has 1 settlement.\nknight card, you might have to set aside the Largest Army\ncard. If you only have only 2 face-up knight cards after\nthe Game\ndiscarding, set it aside. If you and your opponent have the\nIn general, the normal 3-4 player rules for Catan apply. The\nsame number of face-up knight cards (or your opponent\nchanges are described below.\nhas more) after discarding, set it aside. Thereafter, a player\nthat has the most (at least 3) face-up knight cards takes the\nadditional Rules\nLargest Army card.\nRolling for Production"
+  },
+  {
+    "id": 41,
+    "text": "additional Rules\nLargest Army card.\nRolling for Production\n• When you build a settlement adjacent to the desert hex,\nOn your turn, you roll the dice twice in a row. It is essential take 2 trade tokens (also applies during the set-up phase).\nthat the two dice roll results differ from one another. Should • When you build a settlement on the coast, you take 1 trade\nthe second dice roll give the same result as the first one, roll token (also applies during the set-up phase).\nagain—as many times as necessary to produce two different\n• When you build a settlement adjacent to both the desert"
+  },
+  {
+    "id": 42,
+    "text": "• When you build a settlement adjacent to both the desert\nresults. Immediately after each of the two dice rolls, the two real\nand the coast, you take 3 trade tokens (also applies during\nplayers obtain resources and/or move the robber (a “7” result).\nthe set-up phase).\nBuilding Progress of the Neutral Players\npossible Combinations\nWhen you build a road or a settlement, you must also build\nThis variant can be combined (without rule changes) with all\n(for free) 1 road or 1 settlement for either of the two neutral\nother T&B variants, and with T&B and Seafarers scenarios in"
+  },
+  {
+    "id": 43,
+    "text": "other T&B variants, and with T&B and Seafarers scenarios in\nplayers. If there is no legal settlement location for the neutral\nwhich the Largest Army is not excluded.\nplayers, you must build a road instead.\nFor Combination with Catan Event Cards: On your turn,\nWhen you build a city or buy a development card, the\nyou draw two event cards instead of rolling the dice.\nneutral players are not affected. The neutral players do not\nreceive resources; however, a neutral player can obtain the If the second card has the same production result as the"
+  },
+  {
+    "id": 44,
+    "text": "Longest Road. first, no further cards are drawn. The production result is\napplied twice.\nUsing Trade Tokens to Take Actions\nFor Combination with Cities & Knights: 2-player rules\nOn your turn, you may pay 1 or 2 trade tokens and take one\nhave been developed for Cities & Knights. However, they are\nof these actions:\ntoo extensive to fit here. If you are interested in playing Catan:\n• Action “Forced Trade”: You draw 2 random cards from\nCities & Knights with 2 players, go to:\nyour opponent’s hand; in exchange, you give your opponent\ncatan.com/service/combinations/catan-2-cities-and-knights."
+  },
+  {
+    "id": 45,
+    "text": "catan.com/service/combinations/catan-2-cities-and-knights.\n2 cards of your choice from your own hand. If your\nopponent only has 1 card, you can take it, but still must\ngive that opponent 2 cards in exchange.\n• Action “Move Robber”: You may move the robber to the\ndesert hex.\nIf your victory point total is fewer than or equal to your\nopponent’s total, you must pay 1 trade token to take an action.\nOtherwise, an action costs you 2 trade tokens. Return spent\ntrade tokens to the supply.\n77\nC s\nampaign Cenarios"
+  },
+  {
+    "id": 46,
+    "text": "trade tokens to the supply.\n77\nC s\nampaign Cenarios\nThis Campaign consists of 5 different scenarios—starting with the simple “The Fishermen of Catan” and ending with the\nsomewhat more complex “Traders & Barbarians.” Because of the increasing level of difficulty, we recommend that you play\nthe scenarios in sequential order. In theory, each scenario in this Campaign can be combined and played with each other\nT&B scenario, and with Catan–Cities & Knights and each Catan–Seafarers scenario. In practice, each combination of"
+  },
+  {
+    "id": 47,
+    "text": "scenarios would need an adaptation of the rules. A description of each possible combination would go beyond the scope of\nthese rules. You can find the most useful possible scenario combinations at catan.com. Please stop by our website once in a\nwhile to see what else is new in the world of Catan!\nTTHHEE FFIISSHHEERRMMEENN OOFF CCAATTAANN What it is about\nThe coasts and lakes of Catan are teeming with fish, but fish\nAfter the settlers have built their first settlements, created\nhas been a rare, though known commodity on Catan. So, what\nagricultural crop land and multiplied their"
+  },
+  {
+    "id": 48,
+    "text": "agricultural crop land and multiplied their\ncould be more obvious than sending fishermen to the shores of\nflocks of sheep on the fertile pastures of Catan,\nCatan to retrieve the precious goods from the depths of the lake\nthey lean back in their chairs, satisfied. Totally\nand the sea?\nsatisfied? No, not totally. It’s true that lamb\nThe fish caught soon proves to be a coveted commodity. For\nand bread are delicious food—but every day\n2 fish, the robber voluntarily leaves Catan. For 4 fish, the bank\nthe same dish makes some settlers wish their"
+  },
+  {
+    "id": 49,
+    "text": "the same dish makes some settlers wish their\nforks out a resource. For 5 fish, workers don’t mind building a\nmenu would show a little more diversity. Thus,\nroad for free…\nit is only a matter of time until a couple of settlers equip\nthemselves with fishing rods and nets and try their luck on\npRepaRation\nthe shores of Catan or the recently discovered lake. Meaning • Replace the desert hex with the lake hex. The lake cannot\nthat for Catan’s fish populations, the peaceful times have be placed on the edge of the island (i.e., the coast)."
+  },
+  {
+    "id": 50,
+    "text": "definitely come to an end... • Mix the fish tokens and the old boot token together face\nNote: This scenario differs significantly from the scenario down and place them near the resource cards.\npreviously published with the same name. This scenario • On each frame section, place a fishing ground tile on a free\nhas expanded rules and an added lake hex. Read these rules vertex such that each points towards the island.\ncarefully before beginning play. • If you place your second settlement adjacent to a fishing\nground tile, you receive a fish token (see below) in"
+  },
+  {
+    "id": 51,
+    "text": "ground tile, you receive a fish token (see below) in\nDuration of the Game: About 45-60 minutes\naddition to your normal starting resources.\nAdditional Components: See illustration below • Place the robber beside the game board. It enters the game\nonly when the first “7” is rolled.\n6 fishing ground tiles 1 lake hex\n(prod. #s: 4, 5, 6, 8, 9, 10) (prod. #s: 4, 5, 6, 8, 9, 10)\n29 fish tokens"
+  },
+  {
+    "id": 52,
+    "text": "(prod. #s: 4, 5, 6, 8, 9, 10) (prod. #s: 4, 5, 6, 8, 9, 10)\n29 fish tokens\n2r(t o h h Fb ee ib s nreh ee re — x fnt r tt oY eim mo rs u e t t hm ha ee a “ 2r (t gy g7h oh aa F ”e b r e mm e ib in s r m s eee h ee r r o xe b— ot fn vo r l e tt a l oei Y e r m t mr o d hd s u )e e t . t hha me e“ a g 7g ya a” rmm e is mee r ob o vo l e l a e rt d hd ) e . x 11 Lake\n3da rn Fao iwt s h h1e — rr ep Ysla ooy uue rr mc.e3d a a y nr frF ao oiwt sm h h1e — r r peYslaoo yuu er r mc.ea yfr om"
+  },
+  {
+    "id": 53,
+    "text": "41c h Froei i sscoh eu— frrco Yem o ou ft h mye 4o1c a u h b y rFr o aei t ins as co k k h eu e . — fr rco Yem o ou ft h myeoa ub yra t n a k k . e x 10\n5i1m F rmo is aeh dd— iafoteY rl oyfr u be e mu5i1.im al dF r y mo is aeh dd— ifaoter Y loyfr u eb eum .ilady\nHbmG nataC 5102 © 7m1c a aF dr yi ed s vd h ef r o — laor w pf Y mr o e HbmG nataCe 510 u 2e © n. 7mt1c a aF dr yi ed s vd h fer ol —aor w pf Y rme o ee u n. t x 8\n4 overview cards 1 old boot\n(1 per player) token\n88\nHbmG nataC 5102 ©"
+  },
+  {
+    "id": 54,
+    "text": "4 overview cards 1 old boot\n(1 per player) token\n88\nHbmG nataC 5102 ©\n2r(th oh e Fbe ib nr se ee hr xe — tnf r tto ie Y m mr o se u tt a hh m ee“ a t7 (rgg 2 h yoh ” aa e r bemm F i e ns bi r mee s e ee r h x rbo o e t — nov l f l r t e ta ei oe m r d Yt rmdho ) se e . u tt ah hm ee “ 7 a ggy ”aa m rm is e e em r o bo l ov le ea d rtd ) h . e\n3danr Faowi t s h h e1r — r pelsY aoo yuu er r mc.ead3a nfyr r ao F owt i mh s e h1 r — rpelsY aoo yue urr .cmea fyr om"
+  },
+  {
+    "id": 55,
+    "text": "41ch rF oei iss coh eu — frrcoeY m oo uft h ym eco14 a hu b ry o F ra e i it n sc as k oe kh . u e— frr coeY m oo u tfh ym eo aub yra n ta k k . e\n5i1m r Fmo i a sed hd —ifaotreY lf oyr u eb eum 1i5 . mi l a rd Fmo y i a sed hd i— faotreY lfyo r e ube um .ilady\n7m1ca ad F r y de i s v d fe h o rl —aor wpfrm Y e© 2 o 015 Catan GmbH ee u .nc 1m7 ta da r F d ye i v sd feo hrlr ao — wpfrm Y e o ee. u n t\nthe Game speCial Cases\nThe normal rules for Catan apply. The changes are described • 7 fish tokens at most: You are not allowed have more"
+  },
+  {
+    "id": 56,
+    "text": "on the next page. than 7 fish tokens at any one time. If you already have 7\nfish tokens and would obtain another 1 or 2 fish tokens\nadditional Rules\nfor a settlement or city, you may exchange one of your fish\nFishing tokens with a fish token from the supply (hoping for a\nEach fishing ground tile touches 3 coastal intersections. token with more fish on it).\nSettlements and cities built on these intersections have a chance • You cannot “make change”: If the number of fish on\nto collect fish tokens. Each fishing ground tile shows a dice roll"
+  },
+  {
+    "id": 57,
+    "text": "to collect fish tokens. Each fishing ground tile shows a dice roll\nyour tokens is more than the purchase price, you lose the\nnumber. When the number on a fishing ground tile matches\nexcess fish.\nthe number on the production dice roll, each settlement or city\n• Multiple actions per turn are allowed: You may use\nadjacent to that fishing ground tile collects fish tokens. Each\nfish tokens for more than 1 action during the same turn.\nsettlement collects 1 token, while each city collects 2.\nHowever, you must perform the actions one by one and"
+  },
+  {
+    "id": 58,
+    "text": "However, you must perform the actions one by one and\nIf you have a settlement or city on an intersection adjacent to\nindependently from one another. For example, you are not\nthe lake hex, you may draw a fish token (2 for a city) whenever\nallowed to pay 2 tokens with 3 fish each, thereby moving\na 2, 3, 11, or 12 is rolled.\nthe robber to the desert (2 fish), and take 1 resource from\nFish tokens are drawn randomly from the supply. If there are\nthe bank (4 fish).\nnot enough fish tokens to fulfill everyone’s production, no one"
+  },
+  {
+    "id": 59,
+    "text": "the bank (4 fish).\nnot enough fish tokens to fulfill everyone’s production, no one\nreceives any fish tokens that turn. • Fish tokens are not resources: Fish tokens do not\ncount as resource cards, so do not count them toward\nWhen you draw a fish token, examine it. If it is the old boot\ntoken, you must reveal it immediately (see below). If it shows your hand limit and do not discard them when a “7” is\nfish, keep it face down in front of you until you choose to spend rolled on the dice. Similarly, the robber cannot be used to\nit. steal fish tokens."
+  },
+  {
+    "id": 60,
+    "text": "it. steal fish tokens.\n• Harbors and fishing grounds: If you have a settlement\nor city on an intersection that touches both a harbor and a\nfishing ground tile, you receive both benefits.\n• If the fish tokens are depleted: When the last face-\ndown fish token is drawn, turn over all the used fish tokens\nand mix them again to form a new supply.\n• No fish trading: Fish tokens may not be traded\nbetween players.\nLake hex with production Fishing ground with\nnumbers 2, 3, 11, and 12 production number 6\nan old boot …\nIf you draw the old boot, you must reveal it immediately! After"
+  },
+  {
+    "id": 61,
+    "text": "an old boot …\nIf you draw the old boot, you must reveal it immediately! After\nrolling the dice on your turn, you can give the old boot away.\nActions with Fish Cards You can give the boot to any other player who has the same\nOn each fish token, 1, 2, or 3 fish are depicted. During number of victory points as you or more victory points than you.\nyour turn, you can discard fish tokens in order to take certain However, if you alone have the most points, you must keep the\nactions. You may discard multiple fish tokens to perform more old boot for yourself."
+  },
+  {
+    "id": 62,
+    "text": "actions. You may discard multiple fish tokens to perform more old boot for yourself.\nuseful actions. The more fish you discard, the bigger the benefit: As long as the old boot is in your possession, you need 1\n2 fish— Remove the robber from the board (do not steal additional victory point to win the game! So, you would need\nany cards) until it enters the game again (via a 11 victory points to win the Catan base game. The old boot\n“7” or the use of a knight card). is, therefore, not a negative victory point. Anyone who owns it"
+  },
+  {
+    "id": 63,
+    "text": "“7” or the use of a knight card). is, therefore, not a negative victory point. Anyone who owns it\n3 fish— Steal a random resource card from another player. merely needs one additional victory point to win.\n4 fish— Take a resource of your choice from the bank.\nendinG the Game\n5 fish— Build a free road (as per normal building rules).\n7 fish— Draw a free development card. The game ends as soon as a player has enough points during\ntheir turn to win (10 normally, 11 if you have the old boot).\nPlace the fish tokens you spend face up next to the supply of\nfish tokens.\n99"
+  },
+  {
+    "id": 64,
+    "text": "Place the fish tokens you spend face up next to the supply of\nfish tokens.\n99\nCombination With VaRiants TTHHEE RRIIVVEERRSS OOFF CCAATTAANN\nThis scenario can be combined with any of this expansion’s\nWhile some settlers have totally committed themselves to\nvariants.\nfishing, others are settling near the rivers of Catan. These\nFor combination with “Catan for Two” rivers are proving to be the true lifelines of the island. The\nriver trade is flourishing particularly well—as reflected in\n• During set-up, each player receives 5 fish tokens: 2 tokens\nprofits of sheer gold!"
+  },
+  {
+    "id": 65,
+    "text": "• During set-up, each player receives 5 fish tokens: 2 tokens\nprofits of sheer gold!\nwith 1 fish each, 2 tokens with 2 fish each, and 1 token\nwith 3 fish. The remaining fish tokens are shuffled and No wonder that soon roads are appearing along the rivers,\nplaced face down beside the game board. and mighty bridges are crossing the water. Everyone wants\nto be the wealthiest settler of the island. But it often happens\n• Trade tokens are not used. The player who has fewer\nthat, while one gets rich, many others get poor. How will you\nvictory points needs 1 fewer fish for each action.\nfare?"
+  },
+  {
+    "id": 66,
+    "text": "victory points needs 1 fewer fish for each action.\nfare?\n• New fish tokens are only obtained when the number of\nNote: This scenario differs significantly from the scenario\na fishing ground tile or the lake hex is rolled—not by\npreviously published with the same name. This scenario\nbuilding a settlement on the coast or by discarding\nhas expanded rules and more river hexes. Read these rules\na knight card.\ncarefully before beginning play.\nFor combination with “Catan Event Cards”\n• Robber Flees: Place the robber beside the game board until Duration of the Game: About 45-60 minutes"
+  },
+  {
+    "id": 67,
+    "text": "it is used again (via a “7” or by playing a knight card). Additional Components: See illustration below\nWhen combined with the “Harbormaster” variant, this\nscenario should be played until one player reaches 11 victory 2 sea frame pieces\n(replace frame pieces\npoints during their turn (12 victory points with the old boot).\nlabeled 4-5 and 5-6)\n3 river tiles\n(a 3-hex river on 1 tile, and\na 4-hex river on 2 tiles)\n12 bridges (3 of each color) 1 Wealthiest Settler tile\n1 Poor Settler tile\n40 gold coins\nWhat it is about\nFor each road and each settlement you build adjacent to a"
+  },
+  {
+    "id": 68,
+    "text": "40 gold coins\nWhat it is about\nFor each road and each settlement you build adjacent to a\nriver hex, you receive 1 coin. You can trade 2 coins for any one\nresource of your choice. If you have the most coins, you are the\nWealthiest Settler, which earns you a special victory point. But\nbe careful! If you squander your coins, you could easily become\na Poor Settler and thus lose 2 victory points.\n1100\npRepaRation\n• Assemble the frame and place the 3 river tiles as shown\nin the illustration at the right. Replace two frame pieces\nfrom Catan base game (labeled 4–5 and 5–6) with the"
+  },
+  {
+    "id": 69,
+    "text": "from Catan base game (labeled 4–5 and 5–6) with the\nIntersection Adjacent to a River Hex\ncorresponding frame pieces provided in this expansion.\n• Remove from play the following terrain hexes from Catan\nbase game: 2 mountains hexes, 2 hills hexes, 2 pasture\nhexes, 1 desert hex. Use the remaining terrain hexes to\ncreate the rest of the island. Swampland Hex Path Adjacent to a River\n• When placing number tokens, skip the two swampland\nhexes and do not place tokens on them.\n• Place the first number token “A” on any coastal hex. Then,\nskip number token “2” (B) and set it aside. Place the"
+  },
+  {
+    "id": 70,
+    "text": "skip number token “2” (B) and set it aside. Place the\nBuilding Site for a Bridge\nremaining number tokens in alphabetical order, just as in\nthe set-up of Catan base game. Finally, place number token\n“2” (B) on the hex with number token “12” (H). Now\nthat hex produces resources whenever a “2” or a “12” is\nrolled.\n• Place the robber on one of the two swampland hexes.\n• Place the coins beside the game board. At this point, none\nadditional Rules\nof the players have coins. Settlements and Roads Adjacent to the River"
+  },
+  {
+    "id": 71,
+    "text": "additional Rules\nof the players have coins. Settlements and Roads Adjacent to the River\n• Take the 3 bridges of your color. As in the set-up phase, you receive 1 coin for each road and\n• Place the “Wealthiest Settler” and “Poor Settler” tiles beside each settlement that you build adjacent to a river hex. However,\nthe game board. you do not receive any coins for a settlement adjacent to a river\nhex being upgraded to a city.\nset-up\nBuilding Bridges\nEach player builds 2 settlements with 1 road each, as is\nBuilding a bridge requires 2 brick"
+  },
+  {
+    "id": 72,
+    "text": "Each player builds 2 settlements with 1 road each, as is\nBuilding a bridge requires 2 brick\ncustomary in the Catan base game. The following rules apply:\nand 1 lumber. A new bridge must\n• You may not build a road on any of the “building sites” for\nalways connect to 1 of your existing\nthe bridges—a building site is a path (see dotted lines) roads, settlements, or cities. A bridge\nthat crosses a river. This rule applies during the whole\ncan only be built on one of the 7 game.\nbuilding sites for bridges—a building\n• For each settlement you build adjacent to 1 or 2 river"
+  },
+  {
+    "id": 73,
+    "text": "building sites for bridges—a building\n• For each settlement you build adjacent to 1 or 2 river\nsite is a path that crosses a river. For\nhexes, you receive 1 coin.\neach bridge you build, you receive 3 coins. For the Longest\n• For each road you build on a path adjacent to a river hex, Road and settlement building, a bridge is treated as if it were\nyou receive 1 coin. a road. You can only build 3 bridges. You may not use the\n“Poor Settler” & “Wealthiest Settler” Tiles development card “Road Building” to build a bridge instead of\na road.\nYou can start the game with up to 4 coins. If you have the"
+  },
+  {
+    "id": 74,
+    "text": "a road.\nYou can start the game with up to 4 coins. If you have the\nsmallest number of coins, you receive one of the “Poor Settler” Poor Settler Tiles\ntiles (minus 2 victory points). If multiple players are tied for the If you have the smallest number of coins\nsmallest number of coins (even 0 coins), each of those players at any point in the game, you receive one\nreceives a Poor Settler tile (minus 2 victory points). of the Poor Settler tiles (minus 2 victory\nIf you and you alone have the most coins, you receive the points). If multiple players are tied for the"
+  },
+  {
+    "id": 75,
+    "text": "“Wealthiest Settler” tile. This tile is worth 1 victory point. smallest number of coins, each of those players receives a Poor\nSettler tile. As soon as you no longer have the smallest number\nthe Game\nof coins, you return your Poor Settler tile to the supply. When\nThe normal rules for Catan apply. The changes are described you have this tile, your number of victory points is reduced by 2.\nbelow.\n1111\nHbmG nataC 5102 ©\n=\nHbmG nataC 5102 ©\nHbmG nataC 5102 ©\nWealthiest Settler Tile TTHHEE CCAARRAAVVAANNSS\nThis special tile is worth 1 victory point."
+  },
+  {
+    "id": 76,
+    "text": "Wealthiest Settler Tile TTHHEE CCAARRAAVVAANNSS\nThis special tile is worth 1 victory point.\nRecently, Catan has been enjoying steadily growing wealth,\nInitially, you receive the Wealthiest Settler\nthanks to its industrious settlers, fishermen, and merchants.\ntile by being the only player to have the most coins. If you hold\nBut not all of the settlers are satisfied. For some, Catan has\nthe Wealthiest Settler tile, you lose it if another player’s number\nbecome too busy and agitated. To get away from the hustle\nof coins equals or exceeds your number of coins. This can"
+  },
+  {
+    "id": 77,
+    "text": "of coins equals or exceeds your number of coins. This can\nhappen due to you spending coins or due to another player and bustle, they drive the robber from the desert and settle\nreceiving coins. When you lose the tile, one of two things could at a small oasis. Now they have some peace and quiet, while\nhappen: enjoying the clean and dry desert air—but soon the diet is\nlacking variety, and the wool necessary to make new clothes\n• If a player is the only player with the most coins, that player\nbecomes scarce…\nreceives the Wealthiest Settler tile and the associated victory\npoint."
+  },
+  {
+    "id": 78,
+    "text": "becomes scarce…\nreceives the Wealthiest Settler tile and the associated victory\npoint.\nDuration of the Game: About 60 minutes\n• Otherwise, the tile is set aside until there is only one player\nAdditional Components: See illustration below\nwith the most coins.\nGold Coins\nUp to two times during your turn, you may spend 2 gold\ncoins to buy 1 resource card of your choice from the supply.\nYou can spend coins the turn you receive them. You may trade\ngold for resource cards with other players (and vice versa). You\nmay use maritime trade to obtain coins at the usual 4 identical"
+  },
+  {
+    "id": 79,
+    "text": "may use maritime trade to obtain coins at the usual 4 identical\nresources for 1 coin (or 3 for 1 if you have a 3:1 harbor). A 2:1\nharbor can’t help, since there are no 2:1 gold harbors. Coins\ncannot be stolen by the robber. Coins cannot be taken by using\na “Monopoly” development card.\n1 oasis hex 22 camels\nendinG the Game\nThe game ends when a player reaches 10 VPs during\ntheir turn. What it is about\nNomads have settled at the oasis. They are in dire need of\ntips FoR playinG this sCenaRio\nwool and grain, and they offer commodities of the desert in"
+  },
+  {
+    "id": 80,
+    "text": "tips FoR playinG this sCenaRio\nwool and grain, and they offer commodities of the desert in\nIf you receive the Poor Settler tile, your chances of winning\nexchange. Since the settlers of Catan can always spare some\nthe game are greatly reduced. Therefore, you should use your\nsheep and grain, the nomads are sending out camels to\ncoins to buy resources only when you still have enough options\ntransport those coveted resources. Three caravans are formed\nto build at the river and thus replenish your own gold reserves.\nduring the course of the game—each caravan consists of"
+  },
+  {
+    "id": 81,
+    "text": "during the course of the game—each caravan consists of\nCombination With VaRiants a string of camels that begins at the oasis. Each settlement\nThis scenario can be combined with any of this expansion’s and city adjacent to a caravan route is worth an extra victory\nvariants. point. Each road running parallel to a caravan counts double\n(important for determining the Longest Road).\nFor combination with “Catan for Two”\n• When you build a settlement adjacent to a swampland hex, pRepaRation\nyou receive 2 trade tokens.\nThe oasis hex replaces the desert. Place the oasis hex"
+  },
+  {
+    "id": 82,
+    "text": "you receive 2 trade tokens.\nThe oasis hex replaces the desert. Place the oasis hex\n• Instead of sending the robber to the desert (which does not\nat the very center of the island before creating\nexist in this scenario), it is sent to a swampland hex.\nCatan—the orientation of the oasis is\nFor combination with “Catan Event Cards” arbitrary. Place the camels beside the\n• Robber Flees: The robber is placed beside the game game board. Place the robber beside\nboard until it is used again (via a “7” or the use of a the game board; as soon as the first\nknight card). “7” is rolled, place it on any"
+  },
+  {
+    "id": 83,
+    "text": "knight card). “7” is rolled, place it on any\nWhen combined with the “Harbormaster” variant, this hex with a number token\nscenario should be played until a player reaches 11 victory (not on the oasis).\npoints during their turn.\n1122\nthe Game • If there is still an open caravan starting point, you may\nplace a camel there to start a new caravan.\nThe normal rules for Catan apply. The changes are\ndescribed below. • It is not possible for a caravan to branch. For each caravan,\nthere will always be 2 or fewer paths on which to place a"
+  },
+  {
+    "id": 84,
+    "text": "there will always be 2 or fewer paths on which to place a\nadditional Rules new camel. There are only 3 caravans, so there will be a\nIf, after set-up, you build any settlements or upgrade any maximum of 6 possible paths on which a camel may be\nsettlements to cities during your turn, 1 camel is placed after placed during any given turn. The players vote on where\nyou finish your turn. However, you do not necessarily choose each camel is placed.\nwhere to place the camel; instead its exact placement is Example 2: The camel has been placed on position “A.” Now"
+  },
+  {
+    "id": 85,
+    "text": "determined in a voting round (see below). there are 4 paths where the next camel may be placed.\nPlacing a Camel\nDuring play, 3 different caravans develop and extend—each\nstarts at the oasis and consists of a string of camels.\n• You must always place a camel on a path. That path must\nnot already be occupied by another camel, but it may be\noccupied by a road. You may also build a road on a path AA\noccupied by a camel. Place any road and camel on the\nsame path side by side.\n• Each camel has a “front” end (the head).\n• You must place the first camel of a caravan on a path"
+  },
+  {
+    "id": 86,
+    "text": "• Each camel has a “front” end (the head).\n• You must place the first camel of a caravan on a path\ndirectly pointed to by one of the 3 arrows on the oasis hex\n(see example 1)—the camel’s front must point away from\nthat arrow. Each caravan’s first camel starts from a\ndifferent arrow.\nExample 1: The first camel must be placed. There are Voting Round\n3 paths on which it may be placed.\nDuring a voting round, you get to bid once to determine how\nmany votes you have to influence the placement of a camel.\nBidding starts with the player who just finished their turn and"
+  },
+  {
+    "id": 87,
+    "text": "Bidding starts with the player who just finished their turn and\nproceeds clockwise. You bid by placing wool and/or grain\nresource cards face up in front of yourself. Only players who\nhave bid at least one card can negotiate with each other to\ndetermine where to place the camel.\n• You have one vote for each card that you bid.\n• If you have more votes than all of the other players\ncombined, you choose where to place the camel.\n• Otherwise, if 2 or more players combined have the majority\nof the votes and they agree on the placement of the camel,\nthey place the camel accordingly."
+  },
+  {
+    "id": 88,
+    "text": "of the votes and they agree on the placement of the camel,\nthey place the camel accordingly.\n• Otherwise (no agreement is reached), the player who has\nthe most votes chooses where to place the camel (even if\nthis player is a minority of the total votes).\n• You must place each of the second and latter camels of\n• Otherwise (there is no “most votes” player), the player who\na caravan on a path in such a way that the new camel is\njust finished their turn chooses where to place the camel\nadjacent to the “front” of the last previously placed camel\n(even if that player has no votes)."
+  },
+  {
+    "id": 89,
+    "text": "adjacent to the “front” of the last previously placed camel\n(even if that player has no votes).\nin its caravan (see example). The new camel’s front must\n• Finally, all players discard their resources used for voting.\nalso point away from the last previously placed camel in\nNote: Each player is offered only one opportunity to vote.\nits caravan.\nAdding more bidding cards to the first offer later on is\nnot allowed.\n1133\nspeCial Cases tips FoR playinG this sCenaRio\nEnd of a Caravan In the Catan base game, wool is usually the resource\nconsidered least important. In this scenario, wool takes on a"
+  },
+  {
+    "id": 90,
+    "text": "considered least important. In this scenario, wool takes on a\nA caravan ends when it can no longer be extended by adding\ngreater significance—wool is used for votes that affect camel\na camel. In addition, when the camel supply is depleted, all 3\nplacement, which can lead to additional victory points. Grain is\ncaravans end.\nalso used for votes, but for building it can be more useful than\nMerging of 2 Caravans wool. So it is often a good idea to place a settlement adjacent or\nTwo caravans meeting at an intersection merge as soon as the close to a productive pasture hex during set-up."
+  },
+  {
+    "id": 91,
+    "text": "next camel is placed and will continue as a single caravan.\nCombination With VaRiants\nCamels on the Coast and at the Oasis\nYou can combine this scenario with any of this expansion’s\nA caravan may be extended by placing a camel on an\nvariants.\nappropriate coastal path.\nFor combination with “Catan for Two”\nA caravan’s first camel may not be placed on a path along the\nEach voting round determines the placement of 2 camels:\nedge of the oasis hex. However, if a caravan finds its way back to"
+  },
+  {
+    "id": 92,
+    "text": "edge of the oasis hex. However, if a caravan finds its way back to\nthe oasis, a camel may be placed on a path along the edge of the • If you win the vote, you place 2 camels. However, you must\noasis hex. extend 2 different caravans.\n• In case of a tie, each player places a camel—first the\nBenefits of Caravans\nplayer who just finished their turn and then the other\n• Longest Road — A road on the same path as a camel\nplayer.\ncounts as 2 roads for the Longest Road. For example,\n• Instead of sending the robber to the desert, it is placed\nif a player has 4 continuous road segments and 2 of those"
+  },
+  {
+    "id": 93,
+    "text": "if a player has 4 continuous road segments and 2 of those\nbeside the game board until it is used again (via a “7” or\nroad segments are on the same paths as camels, it would\nthe use of a knight card).\ncount as road with a length of “6.” This would fulfill\nthe requirement of a length of at least “5” for the initial For combination with “Catan Event Cards”\nLongest Road. • Robber Flees: Place the robber beside the board until it is\n• Increase in value of cities and settlements — Each used again (via a “7” or the use of a knight card)."
+  },
+  {
+    "id": 94,
+    "text": "settlement or city located between 2 camels is worth When combined with the “Harbormaster” variant, this\n1 additional victory point. scenario should be played until one player reaches 13 VPs\nExample 3: (see the illustration) During the course of during their turn.\nthe game, 3 somewhat longer caravans have\ndeveloped. A settlement of player “White” and 2\nsettlements of player “Blue” are each\nworth 1 additional victory point—because\neach is located between two camels. Moreover,\n3 roads of player “Blue” and one road of player\n“White” count double for the Longest Road."
+  },
+  {
+    "id": 95,
+    "text": "3 roads of player “Blue” and one road of player\n“White” count double for the Longest Road.\nThere are currently 6 paths on which a camel\ncan be placed.\nendinG the Game\nThe game ends when a player reaches\n12 victory points during their turn.\n1144\nBBAARRBBAARRIIAANN AATTTTAACCKK\nCatan’s wealth doesn’t go unnoticed. Fearsome\nbarbarians, eager for booty, are landing on the coasts of\nCatan, spreading terror. The fun is over—the peaceful\ntimes are history! One never knows where the barbarians\nwill strike. Initially, there are only a few raiders, but their"
+  },
+  {
+    "id": 96,
+    "text": "will strike. Initially, there are only a few raiders, but their\nnumbers increase rapidly. At first they only ruin resource\nproduction. As their strength grows, however, they threaten\nto besiege settlements and cities—with devastating\nconsequences.\nBut Catanians stand by each other. They respond by\ntraining knights to send into battle—but will they be\nstrong enough?\nDuration of the Game: About 60-90 minutes\nAdditional Components: See illustration below\n• Place the inner terrain hexes: Randomly place the\nfollowing hexes in the white inner area: 1 forest, 1 pasture, 1"
+  },
+  {
+    "id": 97,
+    "text": "following hexes in the white inner area: 1 forest, 1 pasture, 1\nhills, 2 mountains, and 2 fields. One forest hex is not used.\n40 gold coins • Placing number tokens: After placing the hexes, place\nthe number tokens following the pattern shown below.\n• Take the 6 knights of your color.\n• Place a barbarian on the hex with the “2” number token\nand on the hex with the “12.” The remaining barbarians\nare placed beside the game board.\nSWIFT KNIGHT\n• Use the new 26 development cards that this expansion\nprovides for this scenario. Do not use any of the Catan"
+  },
+  {
+    "id": 98,
+    "text": "provides for this scenario. Do not use any of the Catan\nHbmG nataC 5102 © Tho oY ca n c o t u u p a p a mp iteh aa d t y h mb p y o u l fa as t yc n oe no u ot 1 h r t k ea c r nh l r i k o e g n i a hc id te g y ! h bt.e Rdeecpkla wceb it htha teR h bi b sa a nsee R wgia a dme nev e da loet pvem tloa epn Cmt K ceanrtd c daredc k. base game development cards.\n• Do not use the “Largest Army” special card.\n• Do not use the robber.\nWhat it is about\nEager for booty, the barbarians are landing on the shores\nof Catan. At first, their mere presence spreads fear and terror."
+  },
+  {
+    "id": 99,
+    "text": "of Catan. At first, their mere presence spreads fear and terror.\nBut as more and more barbarians cross the ocean, they begin\nto occupy coastal hexes and block resource production. The •• 33 •• •• 88 ••••••••\nbarbarians even threaten to capture coastal settlements and\ncities. To survive, the Catanians must prepare their knights at 99 44 55 1100\n•••••••• •••••• •••••••• ••••••\nthe castle and—demonstrating never before seen unity—send\nthem into battle against the barbarian hordes. 1122 66 1100 88 1111\n•• •••••••••• •••••• •••••••••• ••••\npRepaRation\n44 99 33 55"
+  },
+  {
+    "id": 100,
+    "text": "•• •••••••••• •••••• •••••••••• ••••\npRepaRation\n44 99 33 55\n• Place the outer terrain hexes: First, place the desert •••••• •••••••• •••• ••••••••\nhex and the castle hex as shown at the top of the next\ncolumn. Randomly place the following hexes in the gray 66 22\n•••••••••• ••\nouter circle: 2 forest, 2 hills, 3 pasture, 1 mountains, and\n2 fields. These hexes are “coastal hexes.”\n1155\nHbmG nataC 5102 ©\nDesert Hex\nCastle Hex\n24 knights\n(6 of each 30 barbarians\ncolor)\nTREASON INTRIGUE KNIGHTHOOD"
+  },
+  {
+    "id": 101,
+    "text": "HbmG nataC 5102 © 2 I b f a t Y u i r h a n ob n e n o ua rp cd f r e o l o i at pn a a h b y ln r q t , a e e a u s mt c n a i eefn ’k r r t f t o e e r 2 h e d m o en e g mi mc o o t 2 o hu l t a d od eg h s . r ni h e t f R a 1 f 2 s b e l e u r oa m hoe prr te n b p o h b x t a l v © e 2 o 0 1 e 5y Cata eh nr G r m . b s tHi h e . t a h x on e i a sn s s I n f f ct rd ht a o h er amR e d d cr e d oe a am an a ih s t o d r t ev t e ad oxe ln r yo1 ha o of we b u b y x a a ro ae r rs u p b n b, r r a de a icr w s ir i s ho i a ca n o on an n ie r c s r ed e s . ! © 2015 Catan GmbHT t oh h"
+  },
+  {
+    "id": 102,
+    "text": "b, r r a de a icr w s ir i s ho i a ca n o on an n ie r c s r ed e s . ! © 2015 Catan GmbHT t oh h ca e ct P u 6 p l p a a p i c et a h e d t h 1 mb s y k u o a n s f nt it gh on h t e oh t t c e o a a r n l s kr t1 e l n e a o i dg hf yh e x tb. ! e"
+  },
+  {
+    "id": 103,
+    "text": "card back 26 development cards cover card\nset-up • You may not build a road on a path adjacent to a\nconquered hex, and you may not build a settlement on an\nSet up as outlined in the Catan base game, except that your\nintersection adjacent to a conquered hex.\nsecond settlement is replaced by a city. You still only receive 1\nresource for each terrain hex adjacent to your city. c) A settlement or city is conquered\nAs soon as a city or settlement is not adjacent to an\nthe Game\nunconquered hex (i.e., it is surrounded only by the frame and/"
+  },
+  {
+    "id": 104,
+    "text": "the Game\nunconquered hex (i.e., it is surrounded only by the frame and/\nThe normal rules for Catan apply. The changes are described or conquered hexes), it becomes a “conquered settlement/city.”\nbelow. Turn the conquered settlement/city on its side, but leave it on its\nintersection.\nadditional Rules\n• You get no victory points for a conquered settlement/city.\nIn addition to rolling for production, trading, and building,\n• If a conquered settlement/city has a harbor, you cannot\nyou may also resolve the following actions during your turn:\nuse it."
+  },
+  {
+    "id": 105,
+    "text": "you may also resolve the following actions during your turn:\nuse it.\n1. Barbarians land in Catan (each time you build a settlement\n• Since the desert hex and the castle hex can never be\nor upgrade a settlement to a city)\nconquered, a settlement or city adjacent to one of these\n2. Immediately play a development card (each time you buy a\nhexes cannot be conquered.\ndevelopment card)\nExample: A barbarian attack occurs; you roll and place\n3. Place a knight (each time you play a “Knighthood” or a\nbarbarians:\n“Swift Knight” development card)\n• You roll a “3” and place a barbarian on the coastal hex"
+  },
+  {
+    "id": 106,
+    "text": "“Swift Knight” development card)\n• You roll a “3” and place a barbarian on the coastal hex\n4. Move your knights (at the end of your turn, after you finish with the “3” (A).\ntrading and building)\n• You roll a “9” and place a barbarian on the coastal hex\n5. Expel the barbarians (at the end of your turn, after moving with the “9” (B). Now 3 barbarians are on the hex, and it\nyour knights) is conquered. The hex’s number token is turned face down.\n1. Barbarians land on Catan The red settlement is also conquered, because there are no\nunconquered hexes adjacent to it—it is turned on its side."
+  },
+  {
+    "id": 107,
+    "text": "unconquered hexes adjacent to it—it is turned on its side.\na) Barbarian attack\n• You roll a “3”. Since a “3” has already been rolled, you re-\nEach time you build a settlement or upgrade a settlement to\nroll the dice.\na city, you must immediately interrupt your turn and resolve\n• You roll an “8”. However, the coastal hex with the “8” has\na “barbarian attack.” If there are no barbarians left in the\nalready been conquered (the number token is turned face\nsupply, all of the barbarians have landed on Catan and no more\ndown), so no barbarian is placed."
+  },
+  {
+    "id": 108,
+    "text": "supply, all of the barbarians have landed on Catan and no more\ndown), so no barbarian is placed.\nbarbarian attacks take place. Attacks proceed as follows:\nThus, you have rolled 3 different non-“7” numbers and\n• Roll the dice until you get a result that is not a “7” (re-roll\nplaced 2 barbarians during the process.\nas many time as needed). Then place a barbarian on the\ncoastal hex with the number token corresponding to the\ndice roll result. If this coastal hex already has 3 barbarians,\ndo not place a barbarian (do not re-roll the dice).\nAA"
+  },
+  {
+    "id": 109,
+    "text": "do not place a barbarian (do not re-roll the dice).\nAA\n• Roll the dice until you get a result that is not a “7” and is\nCC\nnot the same as the first dice roll result. Then use this dice\nroll result to place a barbarian as outlined in step 1.\nBB\n• Roll the dice until you get a result that is not a “7” and is\nnot the same as either of the first two dice roll results. Then\nuse this dice roll result to place a barbarian as outlined in\nstep 1.\nb) Coastal hex is conquered\nAs soon as you have placed 3 barbarians on a coastal hex,\nturn that hex’s number token face down."
+  },
+  {
+    "id": 110,
+    "text": "As soon as you have placed 3 barbarians on a coastal hex,\nturn that hex’s number token face down.\n• This “conquered hex” no longer produces resources when\nyou roll its number. You no longer place barbarians on this\nhex during a barbarian attack.\n1166\n2. Immediately play a development card b) Resolving a victory\nWhen you buy a development card, you must immediately When a victory occurs in a hex, the defeated barbarians on\nreveal and resolve it. On your turn, you may buy any number of the coastal hex become “prisoners.” These barbarian prisoners"
+  },
+  {
+    "id": 111,
+    "text": "development cards, but you must reveal and resolve each such are distributed among the “involved” players (i.e., the players\ncard before buying another development card. Discard each who have “involved” knights adjacent to the hex):\ndevelopment card after it is resolved. If the development card • If you are the only involved player, you receive all the\nstack is depleted, shuffle the discard pile and it becomes the prisoners.\nnew development card stack.\n• If multiple players are involved, each of the involved players\n3. Place a knight gets a prisoner. If there are not enough prisoners to go"
+  },
+  {
+    "id": 112,
+    "text": "3. Place a knight gets a prisoner. If there are not enough prisoners to go\naround, each involved player rolls the dice.\nWhen you play a\nEach of the involved players who rolls highest (re-roll ties)\n“Knighthood” development\nreceives a prisoner. If you roll and don’t receive a prisoner,\ncard, place one of your\nyou receive 3 gold as compensation.\nknights on 1 of the 6 paths\nadjacent to the castle hex. • If each involved player receives a prisoner and a prisoner\nThat path must not already is left over, the player who has the most involved knights"
+  },
+  {
+    "id": 113,
+    "text": "That path must not already is left over, the player who has the most involved knights\nbe occupied by another receives the prisoner. Should there be a tie for involved\nknight. Similarly, when knights, each involved player rolls the dice (re-roll ties).\nyou play a “Swift Knight” The high roller gets the prisoner; the loser receives 3 gold.\ndevelopment card, place Each two prisoners you hold are worth 1 victory point.\n1 of your knights on any Example: Red moves her knight a total of 3 paths, to a path"
+  },
+  {
+    "id": 114,
+    "text": "1 of your knights on any Example: Red moves her knight a total of 3 paths, to a path\npath not occupied by another knight. adjacent to the conquered hex (A). 4 knights are thus pitted\nagainst 3 barbarians. The knights are victorious. The two\n4. Move your knights\nplayers involved in the victory (red and blue) each get one\nAfter you finish trading and building on your turn, you may\nbarbarian prisoner. Red has more knights involved in the\nmove each of your knights. You move a knight from path to\nvictory, so she gets the third prisoner.\nadjacent path."
+  },
+  {
+    "id": 115,
+    "text": "victory, so she gets the third prisoner.\nadjacent path.\n• You may move each knight up to 3 paths. If you pay 1 grain,\nyou may move the knight up to 5 paths (instead of 3 paths).\nIf you want to increase the movement of several knights to\n5 paths, you must pay 1 grain for each of these knights.\n• When you move a knight, ignore all other knights, roads,\nsettlements, and cities. However, none of your knights can\nend its movement on a path occupied by another knight\n(yours or another player’s).\n• After you finish moving your knights, none of them may be\non a path adjacent to the castle hex. AA"
+  },
+  {
+    "id": 116,
+    "text": "on a path adjacent to the castle hex. AA\n5. Expel the barbarians\na) Checking for victories\nAt the end of your turn, after moving your knights, check each\ncoastal hex to see if a victory occurs in that hex. Start checking\nwith the coastal hex numbered “4” (which is to the left of the\nc) Reconquered coastal hexes\ncastle hex) and continue in clockwise direction until all of the\nWhen a victory occurs at a conquered coastal hex, turn the\ncoastal hexes are checked.\nhex’s number token face up and turn upright any adjacent\nFor a given hex, victory occurs if there is at least 1 barbarian"
+  },
+  {
+    "id": 117,
+    "text": "For a given hex, victory occurs if there is at least 1 barbarian\nconquered settlements and cities. The hex can once again\non the hex and there are more knights on the hex’s 6 adjacent\nproduce resources, and those settlements/cities are once again\npaths than barbarians on the hex.\nfully functional (e.g., worth victory points). On the other hand,\nbarbarian attacks can once again affect the hex.\n1177\nExample: The red settlement (A) regains its function, and A “7” is rolled for production\nthe number token (B) is turned face up again.\nIf you roll a “7” for production, you may draw 1 random"
+  },
+  {
+    "id": 118,
+    "text": "If you roll a “7” for production, you may draw 1 random\nresource card from a player of your choice. In addition, each\nplayer who has more than 7 resource cards must select half\n(rounded down) of their resource cards and return them to\nAA the bank.\nGold Coins\nThe large gold coins are worth 5,\nwhile the small ones are worth 1.\nUp to two times during your turn,\nyou may buy a resource of your choice\nfor 2 gold. You may trade gold for\nresource cards with other players (and\nvice versa). You may use maritime\ntrade to obtain coins at the usual\n4 identical resources for 1 coin (or"
+  },
+  {
+    "id": 119,
+    "text": "trade to obtain coins at the usual\n4 identical resources for 1 coin (or\n3 for 1 if you have a 3:1 harbor). A 2:1\nd) Knight losses after a victory\nharbor can’t help, since there are no 2:1 gold harbors.\nAfter each victory, one of the involved players rolls a die\nGold does not count as a resource and is thus not considered\nand places it in the center of the castle hex. The number\nwhen a “7” is rolled. Gold cannot be taken by using a\nrolled determines one of the three “orientation” pairs of paths\n“Monopoly” development card.\nadjacent to the castle hex: “1&4s,” “2&5l,” or “3&6n.”"
+  },
+  {
+    "id": 120,
+    "text": "“Monopoly” development card.\nadjacent to the castle hex: “1&4s,” “2&5l,” or “3&6n.”\nCheck each knight involved in the victory. If the path that the The events “Treason” and “Intrigue”\nknight is on has the same orientation as one of the two paths When one of these events is resolved, barbarians are\ndetermined by the die roll, remove that knight from the board removed from certain coastal hexes and/or placed on other\n(return to supply). For each of your knights removed, you coastal hexes. A barbarian may not be moved to a hex that"
+  },
+  {
+    "id": 121,
+    "text": "receive 3 gold as compensation. already contains 3 barbarians. If a barbarian is removed from\nExample: After a victory, a die is rolled to determine which a conquered hex (i.e., from a hex occupied by 3 barbarians),\nknight(s) will be removed. The “3&6n” orientation is rolled. turn the hex’s number token face up and turn upright any\nA red knight and a blue knight are on paths that have the adjacent conquered settlements and cities. The hex can once\n“2&5n” orientation. The owners of the knights put them again produces resources, and those settlements/cities are once"
+  },
+  {
+    "id": 122,
+    "text": "back into their supplies, and each receives 3 gold. again fully functional.\nendinG the Game\nThe game ends as soon as a player reaches 12 victory points\nduring their turn.\n1188\nHbmG\nnataC\n5102\n©\nINTRIGUE\nRemove 1 barbarian\nfrom a hex of your choice\nand add it to your prisoners!\nIf there are no barbarians\non the coastal hexes, discard\nthis card and draw a new one.\nHbmG\nnataC\n5102\n©\nBB\n= 5\n= 1\nTREASON\nYou obtain 2 gold. Remove\n2 barbarians from 2 different hexes\nand place them on 2 other\nunconquered coastal hexes.\nIf there aren’t enough barbarians\nin play, take either 1 or both"
+  },
+  {
+    "id": 123,
+    "text": "unconquered coastal hexes.\nIf there aren’t enough barbarians\nin play, take either 1 or both\nof them from the supply.\ntips FoR playinG this sCenaRio TTRRAADDEERRSS && BBAARRBBAARRIIAANNSS\nTo come out as winner in this scenario, it is important to\nThe barbarians have been driven off, and peace is\nbuild knights. On the one hand, you need knights to drive\nreturning. The destruction the barbarians left in their wake\nbarbarians off the hexes adjacent to your own settlements or\nis being repaired as fast as possible. The castle where the"
+  },
+  {
+    "id": 124,
+    "text": "is being repaired as fast as possible. The castle where the\ncities. On the other hand, you can use knights to take prisoners\nCouncil of Catan holds session suffered particularly severe\nthat increase your victory point total. Since mostly it will not be\ndamage, but the restoration efforts are making real progress.\npossible to win victories alone, you should cooperate and ally\nNow, the craftsmen need to finish the stained glass windows\nwith other players—preferably with those who are not too close\nand the new marble statues. Marble must be transported\nto victory."
+  },
+  {
+    "id": 125,
+    "text": "and the new marble statues. Marble must be transported\nto victory.\nfrom the quarry, sand must be brought to the glassworks,\nCombination With VaRiants: glass must be delivered to the Castle, and tools are needed as\nThis scenario can be combined with any of this expansion’s well.\nvariants. The roads of Catan are bustling with traffic. Of course you\nare involved; the Council pays for transport in solid gold.\nFor combination with “Catan for Two”\nOnly some scattered barbarians are getting in the way—\n1. A knight of a neutral color takes part in the game as the\nthey’re waiting. For you!"
+  },
+  {
+    "id": 126,
+    "text": "1. A knight of a neutral color takes part in the game as the\nthey’re waiting. For you!\n“foreign knight” and may be freely used by both players.\nDuration of the Game: About 90 minutes\nWhen you build your first knight, you place the foreign\nknight on a path adjacent to the castle hex. On your turn, Additional Components: See illustration below\nyou first move your own knight(s) and then the foreign\nknight. Once on the board, the foreign knight remains on\nthe board; it is never removed after a victory.\n2. When you build a settlement for yourself and then a"
+  },
+  {
+    "id": 127,
+    "text": "2. When you build a settlement for yourself and then a\nsettlement for a neutral player, the barbarians attack\ntwice—first for your settlement, then for the neutral\nsettlement.\n3. Since there is no robber, you may pay trade tokens to move\na barbarian. If your victory point total is fewer than or\nequal to your opponent’s total, you must pay 1 trade token.\nOtherwise, it costs you 2 trade tokens.\n4. After a victory, if required, use a default dice roll of “3” for\nthe foreign knight.\n5. As compensation for removing a knight, you receive 2 gold\nand a trade token instead of 3 gold."
+  },
+  {
+    "id": 128,
+    "text": "5. As compensation for removing a knight, you receive 2 gold\nand a trade token instead of 3 gold.\nFor combination with “Catan Event Cards”\n4 wagons 30 barbarians 40 gold coins\nThere are no knight cards and no robber in this scenario.\nThus, the following events have different meanings:\n• Robber Attacks!: The player whose turn it is may draw\none random resource card from a player of their choice. In\naddition, each player who has more than 7 resource cards must select half (rounded down) of their resource cards\nand return them to the bank. Cover card\n20 baggage train"
+  },
+  {
+    "id": 129,
+    "text": "and return them to the bank. Cover card\n20 baggage train\n• Robber Flees: Since there is no robber, this event does cards (5 per player)\nnot take place.\nQUARRY • Conflict: If one player alone owns the most knights on the\nboard, that player chooses 1 opponent and takes a random"
+  },
+  {
+    "id": 130,
+    "text": "board, that player chooses 1 opponent and takes a random\nWh r e e n so c u o r m ce b c in a e r d d w fr i o th m t h th e e “ m H . arbormaster” variant, this HbmG nataC 5102 © 1 tR V uert v i hn r e c ee ai q fl n t , u t uw o h irmii e ts r h db c y ef ia ro tr, r o dy P fv oo ipu c n o ot r oi ye i nr oa y n t u .sc rh t ! Rdeecpk tla wcRei a t hthd teh e bi R sa nssee w &ga dm e beve adlo Repvbemlaoe Rpnmt i c aeann rtd sc daredc k.\nscenario should be played until one player reaches 13 victory\npoints during their turn.\n1199\nHbmG nataC 5102 ©\n7 5 HbmG nataC 5102 © X"
+  },
+  {
+    "id": 131,
+    "text": "points during their turn.\n1199\nHbmG nataC 5102 ©\n7 5 HbmG nataC 5102 © X\nKNIGHTROAD BUILDINGSWIFT JOURNEY TOOLMAKIN G G LASSMAKING"
+  },
+  {
+    "id": 132,
+    "text": "© 2015 Catan GmbHfro If m a dy Mn r oat oo u hw vt e he p 1 e o l 1 a r wr c b e r n e o s a eo a i r r tu bd o or a o ncf r r e i t Hbm G a a na h taC 5102 p © c n e a ar o t rr tho da oyP . d aol, dua . c hea 2d njuewst rb Hb o mG nataC 5102 © uaidlts t I m ah fw se y a y am oi no fgu n. u o e h r nr a ,w i vnya © e 201 o 5 Cat an gGmb H tu mh o n em o vr aaee1 gygd a t uu mR it y r V rh l n e e o naov eq. ui er v u in a c f r e i ,u l r w t em th d i o tb ih f s eo r r ci r ta y o, v r fy i d c op P t ou © 2015 Coatan G o mbHn ir r o ny ey .tao s i c 1 u n hr t Rtu V t !er rhnv e i e e q c"
+  },
+  {
+    "id": 133,
+    "text": "c op P t ou © 2015 Coatan G o mbHn ir r o ny ey .tao s i c 1 u n hr t Rtu V t !er rhnv e i e e q c ia nu fl, u t i wt rm h o e i d itb sh r fe c o ir y at r ,r o v yd fi P o cp ou to n o o ir rn ye y i o ta .s u n c hr t!"
+  },
+  {
+    "id": 134,
+    "text": "Card back 26 development cards Cover card\nHbmG nataC 5102 ©\n2 sea frame pieces\n(replace frame pieces\nlabeled 1-2 and 5-6\n36 commodity tokens\nToken backs Token fronts\n© 2015 Catan GmbH 4 1 HbmG nataC 5102 © 5 © 2015 Catan GmbH 2 X 6 X 3 © 2015 Catan GmbH 7 X 4 UseP ltahc bee sa teh Gte oG mf a 5fa G cc eaer udt ps Rtihn aa fti r nmon at Ct coha f y Ryood uurrs s ceolfl.or.\nCard back\nWhat it is about pRepaRation\nThe Castle is being restored, so it will shine in new • First, assemble the frame. Replace 2 frame pieces from"
+  },
+  {
+    "id": 135,
+    "text": "splendor. For this purpose, glass panes for the leaded basic Catan (labeled 1–2 and 5–6) with the corresponding\nwindows are needed, along with marble for statues and frame pieces provided in this expansion.\ninterior decoration. The players have the task of transporting • Then place the 3 trade hexes as shown in the illustration\nglass and marble to the castle hex as well as providing the below. The sea side of each trade hex must match up with\nglassworks with sand and the marble quarry with tools. Each a sea side of the frame. Do not use the following 3 hexes"
+  },
+  {
+    "id": 136,
+    "text": "transported commodity is rewarded with gold and counts as from the Catan base game: the desert hex, 1 pasture hex,\na victory point. The first player to reach a total of 13 victory and 1 fields hex. Remove those 3 hexes from play.\npoints during their turn wins the game.\n• Do not place number tokens on the 3 trade hexes—\nremove the “2” and the “12” number tokens from play.\nThere are three new terrain hexes that serve as “trade\nPlace the remaining number tokens as specified in the\nhexes” for the transport of commodities.\nset-up of the Catan base game, leaving out token “2” (B)"
+  },
+  {
+    "id": 137,
+    "text": "hexes” for the transport of commodities.\nset-up of the Catan base game, leaving out token “2” (B)\nand token “12” (H). When placing the number tokens,\nskip the trade hexes.\nCastle Hex • Arrange the commodity tokens into 3 stacks sorted by the\nFor restoration, pictures on their backs (castle, quarry, glassworks). Shuffle\nthe castle needs each stack and place it with the backs facing up (showing\nmarble and glass. the picture of a building) beside the corresponding trade\nIt provides tools hex (see arrows in the illustration below).\n(from its smithy)\nand sand (from\nits shore).\nX\nQuarry Hex"
+  },
+  {
+    "id": 138,
+    "text": "(from its smithy)\nand sand (from\nits shore).\nX\nQuarry Hex\nThe marble\nquarry needs\ntools. It provides X\nmarble as well\nas sand (from its\nshore).\nGlassworks Hex • You receive the set of 5 baggage train cards whose frame\nThe glassworks colors match your color. Stack the cards face down, sorted\nneeds sand. It so that the backs of the\nprovides glass cards are in sequence from\nand tools (from 1 to 5. Turn the top (1)\nits smithy). baggage train card of your\nstack face up and place\nit next to the stack (see\nillustration)—this is your\nactive baggage train card.\n2200\nX\n4 1\nHbmG\nnataC\n5102 ©"
+  },
+  {
+    "id": 139,
+    "text": "illustration)—this is your\nactive baggage train card.\n2200\nX\n4 1\nHbmG\nnataC\n5102 ©\n• Place the 3 barbarians on the paths marked with black moVement\ncrosses in the illustration below.\nAfter you finish trading and building during your turn, you\n• Use the new 25 development cards that this expansion may move your wagon. The following rules apply:\nprovides for this scenario. Do not use any of the Catan\n1. Moving your wagon\nbase game development cards.\n• You receive 5 gold. • You move your wagon along paths from intersection to"
+  },
+  {
+    "id": 140,
+    "text": "• You receive 5 gold. • You move your wagon along paths from intersection to\n• Do not use the “Longest Road” special card. adjacent intersection. Moving your wagon along a path\nfrom one intersection to an adjacent intersection costs 1 or\n• Do not use the robber.\nmore “movement points” (MPs).\nset-up\n• Any number of wagons may occupy a given intersection.\nYou set up as outlined in the Catan base game, except that • At the beginning of the game, your wagon has 4 movement\nyour second settlement is replaced by a city. You still only points to use each time you take your turn. You can"
+  },
+  {
+    "id": 141,
+    "text": "increase its MPs by upgrading your baggage train.\nreceive 1 resource for each terrain hex adjacent to your city.\n• When you move your wagon along a path, the movement\nOnce you have built your city, place your wagon next to it—\npoint (MP) cost varies based upon whether or not the path\nyour wagon is on your city’s intersection.\nis occupied by a road and/or a barbarian:\nthe Game – The MP cost is 2 if the path does not have a road.\n– The MP cost is 1 if the path has one of your own roads.\nThe normal rules for Catan apply. The changes are described"
+  },
+  {
+    "id": 142,
+    "text": "The normal rules for Catan apply. The changes are described\n– The MP cost is 1 if the path has another player’s road, but\nbelow.\nyou must also pay 1 gold to that player.\ntRade hexes – The MP cost is increased by an additional +2 if there is a\nbarbarian on the path (see also section 5a).\nEach of the 3 trade hexes has a “central plaza” intersection—\nExample: The red wagon has 4 movement points. It can\nwith a building. Four “interior” paths lead to this central plaza.\nmove (A) to the castle using 4 red roads (4 MPs). Or, it can\nFor each trade hex, the following rules apply:"
+  },
+  {
+    "id": 143,
+    "text": "For each trade hex, the following rules apply:\nmove (B) to the castle using a roadless path (2 MPs) and 2\n• You may build roads on interior paths, according to the blue roads (2 MPs), but would owe blue 2 coins. Or, the red\nusual rules. wagon can move (C) to the red settlement using 2 red roads\n• You may not build a settlement on the central plaza (2 MPs) with a barbarian (+2 MPs).\nintersection of a trade hex (A).\n• You may not build roads on the three paths of a trade hex 11 11\n(B) that border on the sea. AA 11 33\nCC\n• You may build settlements/cities on the 4 land corners"
+  },
+  {
+    "id": 144,
+    "text": "(B) that border on the sea. AA 11 33\nCC\n• You may build settlements/cities on the 4 land corners\n(intersections) of a trade hex; obeying the distance rule. 11 BB 22\nExample: The blue player and the red player have built roads\non three out of four paths of the trade hex. No settlement\n11 11\nmay be built on the central intersection (A), and no road\nmay be built on the 3 paths (B) of the trade hex’s coast. 11\nBB\nBB\n• On your turn, you may pay 1 (and only 1) grain to increase\nyour wagon’s movement points by +2 for the current turn.\nBB You may do so even after already having used some or all of"
+  },
+  {
+    "id": 145,
+    "text": "BB You may do so even after already having used some or all of\nits MPs in the regular fashion.\n• Your wagon may stop and end its movement on any\nAA\nintersection it moves to. Unused movement points are lost.\n• Your wagon must stop and end its movement whenever it\nmoves onto the central plaza of a trade hex.\n• If you do not have enough unused MPs to move along a\npath, you may not partially move along the path—your\nwagon must end its movement on an intersection.\n2211\n2. Choosing an initial destination trade hex 3. Delivering your commodity"
+  },
+  {
+    "id": 146,
+    "text": "2211\n2. Choosing an initial destination trade hex 3. Delivering your commodity\nWhen you first move your wagon, you should choose one When your wagon stops at the central plaza of the trade hex\nof the 3 trade hexes to move towards (your wagon’s initial corresponding to your commodity token, you must deliver that\ndestination). You may change your initial destination at will. commodity:\nWhen your wagon eventually reaches the central plaza of • Turn the commodity token face down (showing a picture of"
+  },
+  {
+    "id": 147,
+    "text": "this trade hex, you don’t receive any gold—you don’t have a a building). The token is worth 1 victory point.\ncommodity token to deliver. However, you do receive the top • Depending on your baggage train (see below), you also\ncommodity token from the stack corresponding to the trade receive between 1 and 5 gold.\nhex. Turn it face up in front of yourself to reveal the commodity • Take and reveal another commodity token as outlined\ndepicted on the front of the token. There are 4 different above—this commodity token determines your new\ncommodities: destination trade hex."
+  },
+  {
+    "id": 148,
+    "text": "commodities: destination trade hex.\n4. Upgrading your baggage train\nCommodity tokens\nYour wagon represents the on-board location of your baggage\ntrain. The characteristics of your baggage train are detailed on\nyour active (face up) baggage train card:\n• Your wagon’s movement points.\nGlass Marble Sand Tools\n• The gold you receive for\ndelivering a commodity.\nEach trade hex produces two different types of commodities.\n• The roll required to drive off a\nGlassworks hex Quarry hex Castle hex barbarian (see below). 5 2\nX Example: Your active baggage\ntrain card is shown here. You"
+  },
+  {
+    "id": 149,
+    "text": "X Example: Your active baggage\ntrain card is shown here. You\nhave 5 movement points for your wagon (A), you receive 2\ngold when delivering a commodity (B), and you drive off a\nbarbarian by rolling a “6” (C).\nDuring trading and building on your turn, you may pay\nresources to upgrade to your next baggage train card:\n• Pay the resources shown on the top card of your baggage\nCommodity tokens produced at each trade hex\ntrain stack.\n• Turn the top card of that stack over and place it on top of\nOn later turns, you must move your wagon to the trade hex"
+  },
+  {
+    "id": 150,
+    "text": "On later turns, you must move your wagon to the trade hex\nyour active baggage train card. This card is now your active\nwhere this commodity can be delivered. You want to deliver\nbaggage train card.\nglass and marble to the castle hex, tools to the quarry hex, and\n• Upgrading to the last baggage train card in your stack is\nsand to the glassworks hex. For example, if your wagon is on\nworth 1 victory point, as indicated on that card.\nthe glassworks hex and you have received a glass commodity\n5. The barbarians\ntoken, you must\nmove your wagon Barbarians can occupy paths with roads and paths"
+  },
+  {
+    "id": 151,
+    "text": "5. The barbarians\ntoken, you must\nmove your wagon Barbarians can occupy paths with roads and paths\nto the castle trade without roads. Only 1 barbarian may occupy a given road or\nhex. path. You are allowed to build a road on a path occupied by\na barbarian.\nA player may\ncarry out only a) Moving past barbarians\none delivery at a When moving your wagon along a path (road or no road)\ntime. Only after occupied by a barbarian, your movement point (MP) cost is\ncompleting a 2 more than normally required (i.e., roadless-path + barbarian"
+  },
+  {
+    "id": 152,
+    "text": "completing a 2 more than normally required (i.e., roadless-path + barbarian\ndelivery may you = 4 MPs; road-path + barbarian = 3 MPs). If you do not have\ndraw another sufficient movement points to move past a barbarian, you either\nstop on the intersection before the barbarian and lose any\ncommodity token.\nunused MPs or move in another direction.\n2222\nHbmG nataC 5102 ©\nAA\nBB\nCC\nb) Driving off a barbarian tips FoR playinG this sCenaRio\nIf you upgrade your baggage train card at least once, you can Road building is very important, even though in this scenario"
+  },
+  {
+    "id": 153,
+    "text": "attempt to drive off a barbarian: no Special victory points are obtained for the “Longest Road.”\n• Pause your moving wagon on an intersection adjacent to a The more roads you have, the faster you can move your\nbarbarian. wagon from one trade hex to another and the less gold you have\n• Roll one die. to pay for using your opponents’ roads.\n• If the result is one of the die roll numbers shown on your Always make sure that you have enough gold reserves.\nactive baggage train card, you may move the barbarian to Otherwise you might find yourself sitting with your wagon"
+  },
+  {
+    "id": 154,
+    "text": "any path or road not already occupied by a barbarian. between other players’ roads and not being able to move on\n• Regardless of whether you drive off the barbarian, you may without gold. Then, if none of your fellow players pays you gold\ncontinue moving your wagon normally using any remaining for using your roads, your only option left would be to obtain\nmovement points. When you drive off a barbarian, you do gold from trading—with the other players or with the bank.\nnot steal a resource card from another player.\nCombination With VaRiants"
+  },
+  {
+    "id": 155,
+    "text": "not steal a resource card from another player.\nCombination With VaRiants\n• During each of your turns, you may only attempt to drive off\nThis scenario can be combined with any of this\na given barbarian once.\nexpansion’s variants.\n6. A “7” is rolled\nFor combination with “Catan for Two”\nWhen you roll a “7” as your production roll, you must move\n• Return to the bank half (round up) of the gold you pay for\none of the 3 barbarians to any path not already occupied by\nthe use of neutral roads when moving your wagon, and give\na barbarian. If you move a barbarian to a path occupied by a"
+  },
+  {
+    "id": 156,
+    "text": "a barbarian. If you move a barbarian to a path occupied by a\nthe other half (round down) to you opponent.\nroad, you may draw a resource card (not gold) from the owner\nof that road. • Since there is no robber, you may pay a trade token to\nmove a barbarian to a path not occupied by a road and/or\nIn addition, each player who has more than 7 resource cards\nanother barbarian—instead of sending the robber to\nmust select half (rounded down) of their resource cards and\nthe desert.\nreturn them to the bank.\n• When you build a settlement adjacent to a trade hex, you\n7. A “2” or a “12” is rolled"
+  },
+  {
+    "id": 157,
+    "text": "• When you build a settlement adjacent to a trade hex, you\n7. A “2” or a “12” is rolled\ntake 1 trade token (also applies during the set-up phase).\nWhen you roll a”2” or a “12” as your production roll, re-roll\nFor combination with “Catan Event Cards”\nthe dice.\nThere is no robber and no Longest Road in this scenario. The\n8. Gold Coins\nfollowing events thus have a different meaning:\nThe large gold coins are worth 5, while the small ones are\n• Robber Attacks!: When you roll a “7” as your production\nworth 1.\nroll, you must move one of the 3 barbarians to any path not"
+  },
+  {
+    "id": 158,
+    "text": "worth 1.\nroll, you must move one of the 3 barbarians to any path not\nGold is important—it is used to pay for the movement along already occupied by a barbarian. If you move a barbarian\nother players’ roads. In addition, up to two times during your to a path occupied by a road, you may draw a resource\nturn, you may buy a resource of your choice for 2 gold. You card (not gold) from the owner of that road. In addition,\nmay trade gold for resource cards with other players (and vice\neach player who has more than 7 resource cards must\nversa). You may use maritime trade to obtain coins at the"
+  },
+  {
+    "id": 159,
+    "text": "versa). You may use maritime trade to obtain coins at the\nselect half (rounded down) of their resource cards and\nusual 4 identical resources for 1 coin (or 3 for 1 if you have a\nreturn them to the bank.\n3:1 harbor). A 2:1 harbor can’t help, since there are no\n• Robber Flees: Since there is no robber, this event does\n2:1 gold harbors.\nnot take place.\nGold does not count as a resource and is thus not considered\n• Earthquake: It requires 2 movement points to move your\nwhen a “7” is rolled. Gold cannot be taken by using a\nwagon along a road that is turned sideways—the same as is"
+  },
+  {
+    "id": 160,
+    "text": "wagon along a road that is turned sideways—the same as is\n“Monopoly” development card.\nrequired to move along a path without a road.\nendinG the Game When combined with the “Harbormaster” variant, this\nThe game ends when a player has reached a total of 13 or scenario should be played until one player reaches 14 victory\nmore victory points during their turn. points during their turn.\n2233\nCREDITS CARD DECK MANIFEST\nDesign: Klaus Teuber (www.klausteuber.com) Catan Event Deck (38)\nOriginal Development: TM-Spiele GmbH Rules Summary Card x1\nRobber Attacks x6"
+  },
+  {
+    "id": 161,
+    "text": "Original Development: TM-Spiele GmbH Rules Summary Card x1\nRobber Attacks x6\n5th Ed. Development Team: Pete Fenlon, Arnd Fischer,\nEpidemic x2\nRon Magin, Benjamin Teuber, and Guido Teuber\nEarthquake x1\nArt: Michael Menzel, Harald Lieske Good Neighbors x1\nArt Direction & Graphic Design: Pete Fenlon, Catan Prospers x16\nTournament x1\nMichaela Kienle, and Ron Magin\nTrade Advantage x1\nProduction: Ron Magin & Pete Fenlon\nCalm Seas x2\nTranslation: Gavin Allister, Guido Teuber Robber Flees x2\nNeighborly Assistance x2\nSpecial Thanks: Caecilia Pomponia Attica (LSKC/39-6),\nConflict x1"
+  },
+  {
+    "id": 162,
+    "text": "Neighborly Assistance x2\nSpecial Thanks: Caecilia Pomponia Attica (LSKC/39-6),\nConflict x1\nRobert T. Carty, Jr., Coleman Charlton, Morgan Dontanville,\nPlentiful Year x1\nChris Funk, Alex Colón Hernández, Stephanie Newman, Donna\nNew Year x1\nPrior, and Kelli Schmitz.\nFishermen of Catan Deck\nOriginal English Language Development: Guido Teuber, Coleman\nCover Card x1\nCharlton, Pete Fenlon, and Alex Yeager\nRules Summary Card x4\nRule testing and advice during the expansion development:\nBarbarian Attack Development Card Deck (27)\nTM Spiele GmbH with: Reiner Müller, Wolfgang Lüdtke, Peter\nCover Card x1"
+  },
+  {
+    "id": 163,
+    "text": "TM Spiele GmbH with: Reiner Müller, Wolfgang Lüdtke, Peter\nCover Card x1\nNeugebauer, and Fritz Gruber\nTreason x4\nCatan GmbH with: Claudia Teuber, Guido Teuber, Benjamin Teuber,\nIntrigue x4\nArnd Beenen, Oliver & Petra Sack with With Katharina Sack, Yannick\nKnighthood x14\nSack, Michael Pfundstein, Frank Wölfelschneider with With Daniela\nSwift Knight x4\nWölfelschneider, Daniela Reisser, Thomas Reisser, Xavi Bühlmann\nwith Jonas Bühlmann, Nina Bühlmann, Anja Gschwind, Oliver Traders & Barbarians Development Card Deck (26)"
+  },
+  {
+    "id": 164,
+    "text": "Lehmann, Daniel Stehli with With Martin Gürber, Jochen Buscher, Cover Card x1\nAndré Fleckner, Guiseppe Goffi, Dr. Reiner Düren with Anna Lebrato, Knight x15\nManuel Lebrato, Monika Lebrato, Arend Overhoff, Nils Overhoff, Dr. Road Building x3\nMartina Fach-Overhoff, Dirk Blask with Sandra Blask, Ralf Blask, Swift Journey x3\nSabine Heinrich, Guido Heinrich, Dietmar Stadler with Sylvia and Toolmaking x1\nKlaus Rustler, Heinz Penzel, Denis Neumann, Simon Löbe, Meike Glassmaking x1\nand Julia Stadler, and Sebastian Rapp. Quarry x1"
+  },
+  {
+    "id": 165,
+    "text": "and Julia Stadler, and Sebastian Rapp. Quarry x1\nCopyright © 2020 Catan GmbH and Catan Studio. Catan, Traders & Barbarians Baggage Train Cards (21)\nCatan–Traders & Barbarians, The Settlers of Catan, the “Catan Cover Card x1\nSun” logo, the “Glowing Yellow Sun” and “Catan Board” marks,\n5 baggage train cards numbered 1-5 x1 set per player\nand all marks herein are trademarks of Catan GmbH and are\nYou have purchased a game of the highest quality.\nused under license by Catan Studio. Published by Catan Studio,\nHowever, if you find any components missing\n1995 W. County Rd. B2, Roseville, MN 55113."
+  },
+  {
+    "id": 166,
+    "text": "However, if you find any components missing\n1995 W. County Rd. B2, Roseville, MN 55113.\nor damaged, please visit:\nPhone +1.651.639.1905.\nwww.catanstudio.com/parts\nFor all other inquiries, contact us at:\nIf you would like to\ninfo@catanstudio.com\nprotect your cards in this\ngame, we recommend\nGamegenic card sleeves.\nThe badge here\nindicates what style of\nsleeves and the number\nStudio\nof packs required to\nsleeve all of the cards in ™\nthis CATAN expansion. catanstudio.com catan.com\n2244"
+  }
+]
