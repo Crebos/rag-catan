@@ -8,7 +8,7 @@ from google.generativeai import GenerativeModel, configure
 
 # Load environment
 load_dotenv()
-api_key = os.getenv("GEMINI_API_KEY")
+api_key = os.getenv("GOOGLE_API_KEY")
 
 if not api_key:
     raise EnvironmentError("GEMINI_API_KEY not found in .env")
@@ -26,12 +26,12 @@ with open(LOOKUP_PATH, "r") as f:
     chunk_lookup = json.load(f)
 
 # Gemini model
-llm = GenerativeModel("gemini-pro")
+llm = GenerativeModel(model_name="gemini-1.5-flash")
 
 def search_faiss(query, k):
     query_embedding = model.encode([query], convert_to_numpy=True)
     distances, indices = index.search(query_embedding, k)
-    retrieved = [(idx, chunk_lookup[str(idx)]) for idx in indices[0]]
+    retrieved = [(idx, chunk_lookup[idx]) for idx in indices[0]]
     return retrieved
 
 def build_prompt(query, retrieved_chunks):
@@ -54,7 +54,7 @@ def rag_pipeline(query, k):
 
 def ui_func(query, k):
     chunks, response = rag_pipeline(query, k)
-    return chunks, response
+    return "\n\n".join(chunks), response
 
 # UI
 with gr.Blocks(title="RAG for Catan Rules") as demo:
@@ -68,7 +68,7 @@ with gr.Blocks(title="RAG for Catan Rules") as demo:
     submit_btn = gr.Button("Get Answer")
     
     with gr.Row():
-        retrieved = gr.HighlightedText(label="Retrieved Chunks", combine_adjacent=True)
+        retrieved = gr.Textbox(label="Retrieved Chunks", lines=16, interactive=False)
         answer = gr.Textbox(label="Answer", lines=10, interactive=False)
 
     example_queries = [
@@ -83,4 +83,4 @@ with gr.Blocks(title="RAG for Catan Rules") as demo:
 
     submit_btn.click(fn=ui_func, inputs=[query, k_slider], outputs=[retrieved, answer])
 
-demo.launch()
+demo.launch(server_name="0.0.0.0", server_port=7860, share=True)

@@ -1,5 +1,9 @@
 # Blog über Fortschritte und Versuche
 
+## Entwicklungsumgebung
+
+Da ich lokal auf einer Windows machine arbeite, und die integration von Python und package managers und juypter eher "unschön" ist (um es nett zu formulieren), habe ich mich entschieden mit Lightning Studio zu arbeiten. Dies gibt mir eine Online Umgebung, mit allem wichtigen vorinstalliert.
+
 ## Plain and easy
 
 Erster Versuch war mit möglichst standard tools und Einstellungen das PDF auszulesen, tokenizen, embedden und daraus output zu generieren. Dies war erfolgreich aber die Qualität war schon beim ersten Versuch extrem schlecht. Bei einem kurzen Blick in die generierten Chunks (raw PDF output) war schnell klar, dass der pdfplumber die Texte komplett falsch ausgelesen hat. Er hat hier kein Layout berücksichtigt und Linie um Linie ausgelesen, was nicht einmal zu einem korrekten Satz geführt hat.
@@ -47,3 +51,17 @@ Auch mit chunk size 128 und overlap 24 scheinen mir die Chunks und aussagen noch
 Mit extremer chunk size 52 und overlap 8 gibts einfach zu wenig Inhalt und verständlichen Kontext. Die Resultate sind nochmals einiges schlechter, wahrscheinlich da der Kontext einfach fehlt, um was es überhaupt geht. Er scheint mehr Wörter zu mappen als inhaltliche Aussagen.
 
 Daher bleibe ich nun mal bei ewtas zwischendurch: chunksize 112 overlap 22
+
+## LLM integration und Gradio Frontend
+
+Da es sich bei der Arbeit mehr um das Chunking und vectorisieren handeln sollte, habe ich für das Frontend und Deployment eine einfache Lösung gewählt. Als Framework habe ich mich für Gradio entschieden, da dies alles was ich brauche out-of-the-box bereitstellt. Detailliertes Customizing brauche ich nicht. Zusätzlicher Bonus ist, dass LLMs relativ gut darin sind, Gradio Frontend zu generieren, was mir den Prozess einiges erleichtert.
+
+Das Frontend über das Studio laufen zu lassen hat nach 1-2 manuellen fixes direkt funktioniert. Die Resultate sind trotz unschönem Chunking .. dennoch relativ hilfreich bei vielen retrieved chunks. Bei k 1-4 sind die Ergebnisse eher schlecht, da die relevante info nicht dabei ist. Wenn man aber auf k 7-10 hochdrückt, ist die gesuchte information in allen beispielen vorhanden, und das LLM kann eine hilfreiche Antwort daraus generieren.
+
+query: Can I move the robber back to the same tile?
+
+k = 2:
+"Based on the provided text, the rules for moving the robber are not fully explained. The text mentions (...)"
+
+k = 8:
+No, you cannot move the robber back to the same hex it currently occupies. This is explicitly stated in several of the provided text excerpts [6].
