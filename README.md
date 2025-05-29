@@ -24,9 +24,9 @@ I documented the process aswell as trials and errors in a separate file "BLOG.md
 
 ## RAG Improvements
 
-| Improvement       | Description                            |
-| ----------------- | -------------------------------------- |
-| `Query Rewriting` | Rewrite queries to yield better result |
+| Improvement       | Description                                                               |
+| ----------------- | ------------------------------------------------------------------------- |
+| `Query Rewriting` | Rewriting Query with same Gemini LLM before querying over the FAISS Index |
 
 ## Chunking
 

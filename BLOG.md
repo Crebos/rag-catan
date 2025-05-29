@@ -65,3 +65,25 @@ k = 2:
 
 k = 8:
 No, you cannot move the robber back to the same hex it currently occupies. This is explicitly stated in several of the provided text excerpts [6].
+
+## Query Rewriting
+
+Da die vectorsearch im FAISS Index nur funktioniert, wenn der Input auch effektiv semantisch nahe ist, zum indexierten Text, habe ich das RAG mit Query Rewriting optimiert.
+
+Zum testen habe ich folgende Query verwendet:
+
+query = "Can I move the weird guy that lets me steal a card from someone, into a water thingy on the map?"
+
+Wobei klar (etwas übertriebene) falsche Begriffe verwendet werden:
+
+- "weird guy that lets me steal a card from someone" = "robber"
+- "water thingy" = "hex tile containing water"
+- "map" = "game board"
+
+Ohne Query Rewriting versteht es den Kontext erst ab k = 8+, darunter kann er die Regel nicht korrekt wiedergeben.
+
+Mit Query Rewriting hat das LLM mit k = 3 den Kontext verstanden und eine korrekte Antwort generieren können. Hierbei erklärte das LLM auch, dass es mit "robber" den "weird guy" meint.
+
+Beim Prompt für das Query rewriting war wichtig, hier effektiv zu erwähnen nur eine Query zurückzugeben, keine Optionen oder Erklärungen, da das LLM dies sonst macht und was zu schlechteren Resultaten führen könnte.
+
+Das Query Rewriting hat hier eine Verbesserung geliefert, für komisch formulierte inputs.

@@ -28,33 +28,42 @@ with open(LOOKUP_PATH, "r") as f:
 # Gemini model
 llm = GenerativeModel(model_name="gemini-1.5-flash")
 
+def rewrite_query(original_query):
+    prompt = f"""Rewrite the following user question to improve document retrieval while using Catan vocabulary. Answer only with the improved Query, no options and no explanations
+Original: "{original_query}"
+Rewritten:"""
+    response = llm.generate_content(prompt)
+    return response.text.strip().strip('"')
+
 def search_faiss(query, k):
     query_embedding = model.encode([query], convert_to_numpy=True)
     distances, indices = index.search(query_embedding, k)
     retrieved = [(idx, chunk_lookup[idx]) for idx in indices[0]]
     return retrieved
 
-def build_prompt(query, retrieved_chunks):
+def build_prompt(original_query, retrieved_chunks):
     prompt = f"""You are an expert on the rules of Catan (with expansions). Answer the user query using the following retrieved context chunks:
 
 ---
 {chr(10).join(f'[{i+1}] {chunk}' for i, (_, chunk) in enumerate(retrieved_chunks))}
 ---
 
-Now, answer the question: "{query}"
+Now, answer the question: "{original_query}"
 """
     return prompt
 
-def rag_pipeline(query, k):
-    retrieved = search_faiss(query, k)
+def rag_pipeline(original_query, k):
+    rewritten_query = rewrite_query(original_query)
+    retrieved = search_faiss(rewritten_query, k)
     retrieved_texts = [f"[{i+1}] {chunk}" for i, (_, chunk) in enumerate(retrieved)]
-    prompt = build_prompt(query, retrieved)
+    prompt = build_prompt(original_query, retrieved)
     response = llm.generate_content(prompt)
-    return retrieved_texts, response.text
+    return rewritten_query, retrieved_texts, response.text
+
 
 def ui_func(query, k):
-    chunks, response = rag_pipeline(query, k)
-    return "\n\n".join(chunks), response
+    rewritten_query, chunks, response = rag_pipeline(query, k)
+    return rewritten_query, "\n\n".join(chunks), response
 
 # UI
 with gr.Blocks(title="RAG for Catan Rules") as demo:
@@ -68,6 +77,7 @@ with gr.Blocks(title="RAG for Catan Rules") as demo:
     submit_btn = gr.Button("Get Answer")
     
     with gr.Row():
+        rewritten_query = gr.Textbox(label="Rewritten Query", lines=4, interactive=False)
         retrieved = gr.Textbox(label="Retrieved Chunks", lines=16, interactive=False)
         answer = gr.Textbox(label="Answer", lines=10, interactive=False)
 
@@ -81,6 +91,6 @@ with gr.Blocks(title="RAG for Catan Rules") as demo:
         inputs=[query],
     )
 
-    submit_btn.click(fn=ui_func, inputs=[query, k_slider], outputs=[retrieved, answer])
+    submit_btn.click(fn=ui_func, inputs=[query, k_slider], outputs=[rewritten_query, retrieved, answer])
 
 demo.launch(server_name="0.0.0.0", server_port=7860, share=True)
