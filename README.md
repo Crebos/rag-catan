@@ -4,6 +4,7 @@ app_file: app.py
 sdk: gradio
 sdk_version: 5.31.0
 ---
+
 # RAG for Catan game rules
 
 ## Project Description
@@ -16,11 +17,11 @@ I documented the process aswell as trials and errors in a separate file "BLOG.md
 
 ### Name & URL
 
-| Name                       | URL                                                                                     |
-| -------------------------- | --------------------------------------------------------------------------------------- |
-| Huggingface (or streamlit) | [Huggingface Space]()                                                                   |
-| Embedding Model Page       | [Huggingface Model Page](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) |
-| Code                       | [GitHub Repository](https://github.com/Crebos/rag-catan)                                |
+| Name                 | URL                                                                                     |
+| -------------------- | --------------------------------------------------------------------------------------- |
+| Huggingface          | [Huggingface Space](https://huggingface.co/spaces/meyeryve/rag-catan)                   |
+| Embedding Model Page | [Huggingface Model Page](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) |
+| Code                 | [GitHub Repository](https://github.com/Crebos/rag-catan)                                |
 
 ## Data Sources
 
