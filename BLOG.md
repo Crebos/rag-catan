@@ -35,15 +35,22 @@ Mit mehr Fokus auf das Chunking, habe ich festgestellt, dass das maximal limit f
 
 Hierbei habe ich gemerkt, dass meine TestQueries noch optimiert werden könnte, da ich aktuell nur eine verwende und diese eher schwierig ist. Ich werde hier total 6 Queries zusammenstellen, dabei jeweils 2 aus je 3 Dokumenten. Diese nutze ich dann um manuell zu prüfen, ob die Antworten in die richtige Richtung gehen.
 
-Diese verwendete ich bis anhin:
+### Diese verwendete ich bis anhin:
+
 query = "I have all the necessary resources and it is my turn. Where can I place a city? Anywhere connected to a road, right?"
 
-Neu verwende ich folgende Fragen:
+### Neu verwende ich folgende Fragen:
+
 query = "How do you acquire resources during the game?" # Answer in catan_base_3to4p.pdf at page 11 (you gotta dice the numbers where your settlements are)
+
 query = "How do you get the Longest Road special card and what happens if another player builds a longer road?" # Answer in catan_base_3to4p.pdf at page 5 (5 continoous reoad segments (and longest))
+
 query = "What do you need to play a Seafarers 5-6 Player scenario?" # Answer in catan_seafarers_5to6p.pdf at page 2 (you need Catan & Catan 5&6p, and seafarers game)
+
 query = "How should you assemble the game board for a Seafarers scenario?" # Answer in catan_seafarers_5to6p.pdf at page 2 (Assemble frame as in the photo and place tiles ..)
+
 query = "What happens when the barbarian ship reaches Catan?" # Answer in catan_barbarians_3to4p.pdf at page 7 (must compare knight strength to barbarians strength)
+
 query = "How are knights used in the game, and what actions can they perform?" # Answer in catan_barbarians_3to4p.pdf at page 6 (msut be activated by paying 1 grain, then he can used)
 
 Auch mit chunk size 128 und overlap 24 scheinen mir die Chunks und aussagen noch viel zu durchmischt, mit vielen irrelevanten informationen. Auch die Resultate aus dem Index sind nicht wirklich nutzbar, aber dennoch sind "manchmal" nahe an der tatsächlichen relevanten Stellen.
@@ -129,3 +136,16 @@ Hier wäre auch die Idee eine Liste von 40-50 Queries automatisch generieren zu 
 Auch hier würde man 40-50 Queries definieren und automatisiert die Resultate generieren und persistieren. Die Resultate würde man dann mit vorherigen Resultaten von einem LLM vergleichen lassen, und Entscheiden lassen welche Antwort "besser" ist. Auch dies finde ich eher ungenau, da das LLM nicht prüfen kann, welche Antwort davon richtig ist. Ebenfalls ist hier die Meinung des LLMs was "besser" ist, ausschlaggebend. Dennoch hat dies hier den Vorteil dass es auch vollautomatisiert ist.
 
 Ich würde mich hier für diese Variante als nächstes Entscheiden. Dies habe ich aber nicht umgesetzt, da ich nicht für jede neue Version die ich teste hunderte von Text Completions durchführen möchte (ist nicht mein persönlicher API Key).
+
+## Expansion Awareness
+
+Aktuell werden die Text chunks ausgelesen ohne Kontext um welche Expansion sich der Inhalt bezieht. Dies kann dazu führen, dass spezielles knowhow also "Spezialregeln" vermischt werden zwischen den Expansions. Oder sogar dass eine einfach Frage zum Basegame mit Expansion regeln beantwortet werden, ohne dies zu erwähnen. Um dem LLM hier etwas Unterstützung zu bieten, werde ich pro Chunk ebenfalls mitgeben, aus welcher Expansion der Chunk stammt. Dann kann das LLM in seiner Antwort Stellungnahme dazu nehmen und dem Nutzer bessere Antworten liefern.
+
+Dafür speichere ich im chunk_lookup nebst dem Text auch noch den Expansion name und gebe textuell Kontext mit. "These rules apply to the {name of game} game"
+
+Im Prompt erwähne ich, dass die Antwort jeweils erklären sollte, auf welche Expansion sich die Antwort bezieht. Somit werden Regeln nicht weiter vermischt.
+
+Query = "what is a knight and how can I destroy the opponents knight?"
+Antwort = "In the Cities & Knights expansion, a knight is a unit you (...)"
+
+Perfection c:
