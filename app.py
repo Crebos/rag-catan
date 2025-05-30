@@ -42,13 +42,19 @@ def search_faiss(query, k):
     return retrieved
 
 def build_prompt(original_query, retrieved_chunks):
-    prompt = f"""You are an expert on the rules of Catan (with expansions). Answer the user query using the following retrieved context chunks:
+    prompt = f"""
+You are an expert on the rules of Catan (with expansions). 
+
+Do not answer questions, that are off topic. If the Question or Prompt is out of context, simply explain that you are only answering questions related to settlers of Catan.
+Do not make up answers. If the Information is not included in the context chunks, simply explain that you dont have the knowledge. Additionally dont provide information that the user did not specifically ask for, even if you dont know the answer.
+
+This is the context information:
 
 ---
-{chr(10).join(f'[{i+1}] {chunk}' for i, (_, chunk) in enumerate(retrieved_chunks))}
+{chr(10).join(chunk for i, (_, chunk) in enumerate(retrieved_chunks))}
 ---
 
-Now, answer the question: "{original_query}"
+Answer this question in natural and polite language: "{original_query}"
 """
     return prompt
 

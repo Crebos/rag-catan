@@ -2,7 +2,7 @@
 
 ## Entwicklungsumgebung
 
-Da ich lokal auf einer Windows machine arbeite, und die integration von Python und package managers und juypter eher "unschön" ist (um es nett zu formulieren), habe ich mich entschieden mit Lightning Studio zu arbeiten. Dies gibt mir eine Online Umgebung, mit allem wichtigen vorinstalliert.
+Da ich lokal auf einer Windows machine arbeite, und die integration von Python und package managers und juypter eher "unschön" ist (um es nett zu formulieren), habe ich mich entschieden mit Lightning Studio zu arbeiten. Dies gibt mir eine Online Umgebung, mit allem wichtigen vorinstalliert und einer linux Umgebung.
 
 ## Plain and easy
 
@@ -21,11 +21,11 @@ query = "I have all the necessary resources and it is my turn. Where can I place
 Result #1 (Distance: 0.9765)
 you cannot build a city directly. you can onlycontent : to make the sequence easier to learn for beginners. (...)
 
-Interpretation: Hier hat er den string "you cannot build a city directly. you can only" als Heading interpretiert und leider genau im richtigen Satz abgeschnitten. Alles danach ist gibberish. Aber dass er anhand von diesem kleinen Text aus dem index diesen snippet extrahieren konnte, zeigt dass der rest relativ solide läuft.
+Interpretation: Hier hat er den string "you cannot build a city directly. you can only" als Heading interpretiert und leider genau im richtigen Satz abgeschnitten. Alles danach ist gibberish. Aber dass er anhand von diesem kleinen Text aus dem index diesen snippet extrahieren konnte, zeigt dass der rest relativ solide funktioniert.
 
 ## Fokuswechsel
 
-Damit ich nicht zu viel Zeit verschwende um das PDF auszulesen, werde ich vorerst die Applikation lauffähig machen. Gemäss Auftragsdokument ist die Qualität des Models nicht die höchste Priorität, sondern der Prozess um ein RAG zu erstellen. Ein nächster Schritt wäre hier, das Chunking zu verbessern, da ich aktuell per Wordcount chunke, und danach nochmals nach tokencount. Könnte man vereinheitlichen.
+Damit ich nicht zu viel Zeit verschwende um das PDF auszulesen, werde ich vorerst den rest der Applikation etwas professioneller bauen. Gemäss Auftragsdokument ist die Qualität des Models nicht die höchste Priorität, sondern der Prozess um ein RAG zu erstellen. Ein nächster Schritt wäre hier, das Chunking zu verbessern, da ich aktuell per Wordcount chunke, und danach nochmals nach tokencount. Könnte man vereinheitlichen.
 
 Um das auslesen aus dem PDF später zu verbessern, kann ich mir vorstellen ein LLM zu verwenden (welches aber etwas schwierig ist, da die Dokumente nicht gerade klein sind) oder ausschau nach einer dynamischeren Library zu halten, welche mehr Optionen für das Auslesen der PDFs gibt.
 
@@ -56,7 +56,7 @@ Daher bleibe ich nun mal bei ewtas zwischendurch: chunksize 112 overlap 22
 
 Da es sich bei der Arbeit mehr um das Chunking und vectorisieren handeln sollte, habe ich für das Frontend und Deployment eine einfache Lösung gewählt. Als Framework habe ich mich für Gradio entschieden, da dies alles was ich brauche out-of-the-box bereitstellt. Detailliertes Customizing brauche ich nicht. Zusätzlicher Bonus ist, dass LLMs relativ gut darin sind, Gradio Frontend zu generieren, was mir den Prozess einiges erleichtert.
 
-Das Frontend über das Studio laufen zu lassen hat nach 1-2 manuellen fixes direkt funktioniert. Die Resultate sind trotz unschönem Chunking .. dennoch relativ hilfreich bei vielen retrieved chunks. Bei k 1-4 sind die Ergebnisse eher schlecht, da die relevante info nicht dabei ist. Wenn man aber auf k 7-10 hochdrückt, ist die gesuchte information in allen beispielen vorhanden, und das LLM kann eine hilfreiche Antwort daraus generieren. Da beim Dokument auslesen die Texte "verschnitten" sind (zwei parallele Paragraphen ausgelesen linie um linie), sind die Sätze verstreut über mehrere Chunks. Ich kann mir vorstellen dass beim inkludieren von vielen Chunks, diese Texte im Prompt wieder zusammenkommen, woraus das LLM dann eine korrekte Antwort generieren kann.
+Das Frontend über das Studio laufen zu lassen hat nach 1-2 manuellen fixes direkt funktioniert. Die Resultate sind trotz unschönem Chunking .. dennoch relativ hilfreich bei vielen retrieved chunks. Bei k 1-4 sind die Ergebnisse eher schlecht, da die relevante info nicht dabei ist. Wenn man aber auf k 7-10 hochdrückt, ist die gesuchte information in allen beispielen vorhanden, und das LLM kann eine hilfreiche Antwort daraus generieren, auch wenn extrem viel noise dabei ist. Da beim Dokument auslesen die Texte "verschnitten" sind (zwei parallele Paragraphen ausgelesen linie um linie), sind die Sätze verstreut über mehrere Chunks. Ich kann mir vorstellen dass beim inkludieren von vielen Chunks, diese Texte im Prompt wieder zusammenkommen, woraus das LLM dann eine korrekte Antwort generieren kann.
 
 query: Can I move the robber back to the same tile?
 
@@ -87,3 +87,23 @@ Mit Query Rewriting hat das LLM mit k = 3 den Kontext verstanden und eine korrek
 Beim Prompt für das Query rewriting war wichtig, hier effektiv zu erwähnen nur eine Query zurückzugeben, keine Optionen oder Erklärungen, da das LLM dies sonst macht und was zu schlechteren Resultaten führen könnte.
 
 Das Query Rewriting hat hier eine Verbesserung geliefert, für komisch formulierte inputs.
+
+## Context Grounding
+
+Damit das LLM keine Fragen beantwortet für dessen es keinen nützlichen Kontext erhalten hat, möchte ich dass es eine entsprechende Aussage macht. Sowas wie "Unfortunately I cannot answer this question because I am missing the context". So kann ich verhindern, dass das LLM Informationen halluziniert, oder Dinge erklärt, die in den Chunks vorhanden sind, aber nichts mit der Frage zutun hat.
+
+Zudem möchte ich auch, dass das LLM nur Fragen zu Settlers of CATAN beantwortet. Jegliche Anfragen über "Please write a summary" oder ähnliches, sollten blockiert werden.
+
+Um dies umzusetzen, muss ich das finale Prompt für das LLM anpassen.
+
+Query = "Please make up a sarcastic email I can send to my professor, explaining why I submitted my project late"
+Rewritten Query for FAISS = "Catan project delayed: need sheep, wood, and brick to complete email. Settlement not yet established."
+Answer = "I'm sorry, but I cannot fulfill this request. My knowledge is limited to the rules and components of the Settlers of Catan game, and this question is outside of that scope."
+
+Perfection :D
+
+Query = "How many wood hexes does a base game for 3-4 playes have?"
+Rewritten Query for FAISS = "Number of wood hexes in a standard three-to-four player Catan game"
+Answer = "I'm sorry, but the provided text does not specify the number of wood hexes in a base Catan game for 3-4 players."
+
+Perfection :D
