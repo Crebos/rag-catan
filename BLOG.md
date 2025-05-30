@@ -107,3 +107,25 @@ Rewritten Query for FAISS = "Number of wood hexes in a standard three-to-four pl
 Answer = "I'm sorry, but the provided text does not specify the number of wood hexes in a base Catan game for 3-4 players."
 
 Perfection :D
+
+## Stellungnahme zu Testing
+
+Ein effektives Testing für ein RAG durchzuführen ist natürlich von Vorteil, aber entweder extrem Zeitaufwändig oder zu unpräzise und schwammig. Folgene Testing Szenarien habe ich mir überlegt:
+
+### Manuelles Testing mit kleiner Anzahl standardqueries
+
+Bis jetzt habe ich mit 6-8 standard Queries die Performance des RAGs manuell getestet und bewertet. Die bewertung hierbei war unsystematisch und meinungsbeeinflusst. Dies ist ein wenig Zeitintensiver, aber dafür sehr detailliert und exakt. Es hilft auch beim explorativem verbessern, da ich mir die outputs manuell anschaue und eventuell noch verbesserungsideen finde. Hierbei muss man aber die Antworten "die Wahrheit" aus den Dokumenten kennen.
+
+### Manuelles umfangreiches Testing
+
+Eine Liste von 40-50 Queries aufsetzen, die Antworten automatisiert generieren lassen und die resultate persistieren. Daraus dann manuell die Resultate anschauen und vergleich mit vorherigen Resultaten. Dies ist extrem zeitintensiv aber hat eine hohe Qualität.
+
+### Automatisiertes Testing mit Keywords
+
+Hier wäre auch die Idee eine Liste von 40-50 Queries automatisch generieren zu lassen und die Resultate jeweils gegenzuprüfen, ob gewisse Keywords beinhaltet sind. Diese Methodik ist schnell und vollautomatisiert aber aus meiner Sicht nicht wirklich aussagekräftig. Die Keywords müssten extrem granular und mit alternativen definiert werden, um wirklich zu testen ob die Antwort stimmen könnte. Aber auch hier wäre man sich nicht sicher, weil man die Bedeutung nicht prüft, sondern nur die Wörter
+
+### Automatisiertes Testing mit LLM
+
+Auch hier würde man 40-50 Queries definieren und automatisiert die Resultate generieren und persistieren. Die Resultate würde man dann mit vorherigen Resultaten von einem LLM vergleichen lassen, und Entscheiden lassen welche Antwort "besser" ist. Auch dies finde ich eher ungenau, da das LLM nicht prüfen kann, welche Antwort davon richtig ist. Ebenfalls ist hier die Meinung des LLMs was "besser" ist, ausschlaggebend. Dennoch hat dies hier den Vorteil dass es auch vollautomatisiert ist.
+
+Ich würde mich hier für diese Variante als nächstes Entscheiden. Dies habe ich aber nicht umgesetzt, da ich nicht für jede neue Version die ich teste hunderte von Text Completions durchführen möchte (ist nicht mein persönlicher API Key).
